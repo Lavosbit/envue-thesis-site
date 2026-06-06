@@ -8,9 +8,13 @@ import type {
 } from "../types/thesis";
 
 export const siteContent = siteJson as SiteContent;
-export const bibliographyPageContent = bibliographyPageJson as BibliographyPageContent;
-export const bibliographySources = (bibliographySourcesJson as { sources: BibliographySource[] }).sources;
+export const bibliographyPageContent =
+  bibliographyPageJson as BibliographyPageContent;
+export const bibliographySources =
+  bibliographySourcesJson as BibliographySource[];
 
-export function getBibliographySection<Id extends keyof Omit<BibliographyPageContent, "pageKey">>(id: Id) {
+export function getBibliographySection<
+  Id extends keyof Omit<BibliographyPageContent, "pageKey">,
+>(id: Id) {
   return bibliographyPageContent[id];
 }

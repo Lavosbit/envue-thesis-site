@@ -171,25 +171,6 @@
     }
   },
   {
-    "id": "environmental-price-fast-fashion",
-    "title": "The Environmental Price of Fast Fashion",
-    "author": "Kirsi Niinimäki, Greg Peters, Helena Dahlbo, Patsy Perry, Timo Rissanen, and Alison Gwilt",
-    "year": "2020",
-    "type": "Peer-reviewed review article",
-    "apa": "Niinimäki, K., Peters, G., Dahlbo, H., Perry, P., Rissanen, T., & Gwilt, A. (2020). The environmental price of fast fashion. Nature Reviews Earth & Environment, 1, 189–200. https://doi.org/10.1038/s43017-020-0039-9",
-    "summary": "The authors synthesize environmental impacts across the fashion system, including fiber production, manufacturing, transportation, use, shortened garment lifetimes, and waste. They connect fast-fashion business models and consumption patterns to resource use and pollution while outlining the need for systemic changes in production, design, business models, and consumer behavior.",
-    "evaluation": "Published in the peer-reviewed Nature Reviews Earth & Environment, this article provides a broad scholarly synthesis with extensive references and multidisciplinary authorship. Its systems-level scope is a major strength, though it does not prescribe a specific communication strategy for one brand. This makes it most useful as industry context that must be translated carefully into design and messaging decisions.",
-    "reflection": "This source challenged Envue to treat sustainability as evidence rather than visual atmosphere. It informed a communication approach that separates claims, proof, provenance, and limitations instead of using vague ethical language. It also reinforced that a fashion-adjacent brand identity should avoid implying environmental responsibility unless the claim can be supported.",
-    "finding": "Fashion’s environmental impact is systemic, so credible sustainability communication requires specificity, traceability, and operational evidence.",
-    "decision": "Structure Envue’s sustainability communication around qualified claims and supporting evidence rather than generalized ethical messaging.",
-    "artifact": {
-      "label": "Evidence standard",
-      "title": "Sustainability Claims Framework",
-      "detail": "A content standard for claims, sources, provenance, limitations, and evidence across Envue touchpoints.",
-      "variant": "principles"
-    }
-  },
-  {
     "id": "aesthetic-usability-effect",
     "title": "The Aesthetic-Usability Effect",
     "author": "Kate Moran",
@@ -225,6 +206,25 @@
       "title": "Envue Consistency Standards",
       "detail": "A documented set of reusable standards for layout, typography, content, navigation, and visual treatment.",
       "variant": "system"
+    }
+  },
+  {
+    "id": "environmental-price-fast-fashion",
+    "title": "The Environmental Price of Fast Fashion",
+    "author": "Kirsi Niinimäki, Greg Peters, Helena Dahlbo, Patsy Perry, Timo Rissanen, and Alison Gwilt",
+    "year": "2020",
+    "type": "Peer-reviewed review article",
+    "apa": "Niinimäki, K., Peters, G., Dahlbo, H., Perry, P., Rissanen, T., & Gwilt, A. (2020). The environmental price of fast fashion. Nature Reviews Earth & Environment, 1, 189–200. https://doi.org/10.1038/s43017-020-0039-9",
+    "summary": "The authors synthesize environmental impacts across the fashion system, including fiber production, manufacturing, transportation, use, shortened garment lifetimes, and waste. They connect fast-fashion business models and consumption patterns to resource use and pollution while outlining the need for systemic changes in production, design, business models, and consumer behavior.",
+    "evaluation": "Published in the peer-reviewed Nature Reviews Earth & Environment, this article provides a broad scholarly synthesis with extensive references and multidisciplinary authorship. Its systems-level scope is a major strength, though it does not prescribe a specific communication strategy for one brand. This makes it most useful as industry context that must be translated carefully into design and messaging decisions.",
+    "reflection": "This source challenged Envue to treat sustainability as evidence rather than visual atmosphere. It informed a communication approach that separates claims, proof, provenance, and limitations instead of using vague ethical language. It also reinforced that a fashion-adjacent brand identity should avoid implying environmental responsibility unless the claim can be supported.",
+    "finding": "Fashion’s environmental impact is systemic, so credible sustainability communication requires specificity, traceability, and operational evidence.",
+    "decision": "Structure Envue’s sustainability communication around qualified claims and supporting evidence rather than generalized ethical messaging.",
+    "artifact": {
+      "label": "Evidence standard",
+      "title": "Sustainability Claims Framework",
+      "detail": "A content standard for claims, sources, provenance, limitations, and evidence across Envue touchpoints.",
+      "variant": "principles"
     }
   }
 ]
