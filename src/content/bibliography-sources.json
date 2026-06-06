@@ -1,5 +1,4 @@
-{
-  "sources": [
+[
   {
     "id": "brand-gap",
     "title": "The Brand Gap",
@@ -20,6 +19,25 @@
     }
   },
   {
+    "id": "brand-flip",
+    "title": "The Brand Flip",
+    "author": "Marty Neumeier",
+    "year": "2015",
+    "type": "Book",
+    "apa": "Neumeier, M. (2015). The brand flip: Why customers now run companies and how to profit from it. New Riders.",
+    "summary": "Neumeier argues that modern brands are increasingly shaped by customers, communities, and shared meaning rather than by company-controlled messaging alone. The book reframes branding as a relationship in which audiences participate in defining value, identity, and belonging.",
+    "evaluation": "This source is a professional branding text by a widely cited practitioner and is useful for understanding contemporary audience-centered branding. Its perspective is strategic and practitioner-oriented rather than empirical, so it is best used to frame brand relationship decisions alongside UX, visual system, and industry research.",
+    "reflection": "This source helped shift Envue away from a company-first identity and toward an audience-centered brand experience. It influenced the emphasis on feeling seen, emotional belonging, and quiet self-possession as the audience-facing value of the brand. It also supported designing Envue as a relationship-driven identity rather than a purely aesthetic fashion concept.",
+    "finding": "Modern brands gain strength when audiences recognize themselves in the meaning and experience the brand creates.",
+    "decision": "Frame Envue around audience connection, emotional recognition, and belonging rather than traditional product-first fashion messaging.",
+    "artifact": {
+      "label": "Audience strategy",
+      "title": "Envue Audience Relationship Framework",
+      "detail": "A strategic framework connecting audience needs, emotional value, identity language, and brand experience.",
+      "variant": "narrative"
+    }
+  },
+  {
     "id": "designing-brand-identity",
     "title": "Designing Brand Identity",
     "author": "Alina Wheeler and Rob Meyerson",
@@ -27,7 +45,7 @@
     "type": "Book",
     "apa": "Wheeler, A., & Meyerson, R. (2024). Designing brand identity: A comprehensive guide to the world of brands and branding (6th ed.). Wiley.",
     "summary": "Wheeler and Meyerson provide a comprehensive process for researching, clarifying, designing, implementing, and governing brand identity. The book connects strategy to naming, messaging, visual systems, touchpoints, standards, and long-term brand management through professional methods and contemporary case studies.",
-    "evaluation": "Published by Wiley and updated in a sixth edition, this source is a current and extensive professional reference for identity development. Its strength is its end-to-end process and breadth of applied examples. Because it is a practice guide rather than an empirical study, its recommendations are best used as a procedural framework supported by more focused scholarly evidence.",
+    "evaluation": "Published by Wiley and updated in a sixth edition, this source is a current and extensive professional reference for identity development. Its strength is its end-to-end process and breadth of applied examples. Because it is a practice guide rather than an empirical study, its recommendations are best used as a procedural framework supported by more focused scholarly, industry, and UX evidence.",
     "reflection": "This source helped organize Envue as a complete identity program instead of a collection of isolated deliverables. It informed the sequence from research and strategy through visual exploration, application, and governance. It also prompted the creation of explicit standards so the identity could remain coherent across digital, editorial, and campaign contexts.",
     "finding": "Successful identity systems connect strategy, design execution, touchpoints, and governance through a repeatable process.",
     "decision": "Develop Envue through defined phases and document reusable rules for logo, typography, color, imagery, layout, and application.",
@@ -58,6 +76,25 @@
     }
   },
   {
+    "id": "laws-of-ux",
+    "title": "Laws of UX",
+    "author": "Jon Yablonski",
+    "year": "2024",
+    "type": "Book",
+    "apa": "Yablonski, J. (2024). Laws of UX: Using psychology to design better products & services (2nd ed.). O’Reilly Media.",
+    "summary": "Yablonski connects psychological principles to practical design decisions, including cognitive load, hierarchy, recognition, familiarity, attention, and decision-making. The book translates behavioral concepts into usable guidance for designing clearer and more intuitive digital experiences.",
+    "evaluation": "This source is a current professional UX reference published by O’Reilly Media. Its value lies in connecting established psychological principles to applied interface and experience design. Because it is a synthesis for practitioners, individual principles should be applied carefully and validated through design review, usability testing, or audience feedback.",
+    "reflection": "This source influenced the way Envue handled hierarchy, pacing, and cognitive load across both the brand system and thesis website. It supported reducing visual noise, organizing content into recognizable patterns, and avoiding unnecessary complexity. These principles helped ensure that Envue’s soft visual language remained clear rather than vague or difficult to navigate.",
+    "finding": "Design decisions become more usable when they account for attention, memory, familiarity, and cognitive effort.",
+    "decision": "Use clear hierarchy, recognizable patterns, and restrained visual complexity across Envue’s brand applications and thesis presentation site.",
+    "artifact": {
+      "label": "UX principles",
+      "title": "Envue Experience Heuristics",
+      "detail": "A practical set of hierarchy, recognition, pacing, and cognitive-load principles used to evaluate layouts and interactions.",
+      "variant": "principles"
+    }
+  },
+  {
     "id": "thinking-with-type",
     "title": "Thinking with Type",
     "author": "Ellen Lupton",
@@ -77,135 +114,59 @@
     }
   },
   {
-    "id": "grid-systems",
-    "title": "Grid Systems in Graphic Design",
-    "author": "Josef Müller-Brockmann",
-    "year": "1981",
+    "id": "flexible-visual-systems",
+    "title": "Flexible Visual Systems",
+    "author": "Martin Lorenz",
+    "year": "2021",
     "type": "Book",
-    "apa": "Müller-Brockmann, J. (1981). Grid systems in graphic design: A visual communication manual for graphic designers, typographers, and three-dimensional designers. Verlag Arthur Niggli.",
-    "summary": "Müller-Brockmann presents the grid as a systematic method for coordinating type, image, margins, columns, and spatial relationships. The book demonstrates how modular structures create order, consistency, and legibility across formats while still supporting variation in composition and emphasis.",
-    "evaluation": "This is a foundational visual-communication text with enduring influence on editorial and identity systems. Its rigorous examples make structural relationships visible and repeatable. The modernist approach can become overly rigid if treated as a universal aesthetic, so its value for Envue lies in adaptable organization rather than stylistic imitation.",
-    "reflection": "The grid framework gave Envue a shared spatial logic across the thesis site, brand documentation, and campaign artifacts. It encouraged consistent alignment and spacing while allowing artifact imagery to carry a distinct visual identity. This was particularly important for separating the neutral thesis framework from the Envue brand work displayed inside it.",
-    "finding": "A consistent modular structure improves clarity and coherence without requiring every composition to look identical.",
-    "decision": "Use a responsive modular grid and shared alignment rules across Envue’s identity applications and presentation materials.",
+    "apa": "Lorenz, M. (2021). Flexible visual systems. Slanted Publishers.",
+    "summary": "Lorenz presents visual identity as a flexible system rather than a set of isolated assets. The book explains how repeatable rules, modular structures, and adaptable visual logic can create identities that remain recognizable across different formats, media, and contexts.",
+    "evaluation": "This source is a contemporary professional design manual focused on flexible identity systems. Its strength is its practical system-based approach to visual identity, though it is not a peer-reviewed academic study. It is most useful for translating brand strategy into reusable visual structures that can adapt without losing coherence.",
+    "reflection": "This source directly supported Envue’s shift from individual brand artifacts toward a scalable visual system. It influenced the use of reusable components, repeated logo-derived forms, visual patterns, and consistent layout logic across the style guide, campaign pieces, and motion work. It also reinforced the need for a system that could remain consistent without becoming visually repetitive.",
+    "finding": "A strong identity can remain recognizable through flexible rules rather than fixed repetition of the same visual asset.",
+    "decision": "Build Envue with reusable components, repeatable visual rules, and adaptable pattern logic across print, digital, motion, and campaign applications.",
     "artifact": {
       "label": "Visual system",
-      "title": "Responsive Grid Specification",
-      "detail": "Columns, margins, spacing units, and alignment behaviors documented across breakpoints and formats.",
+      "title": "Envue Flexible Identity System",
+      "detail": "Reusable components, logo-derived patterns, layout principles, and motion treatments designed to scale across touchpoints.",
       "variant": "system"
     }
   },
   {
-    "id": "logo-guidelines",
-    "title": "Guidelines for Selecting or Modifying Logos",
-    "author": "Pamela W. Henderson and Joseph A. Cote",
-    "year": "1998",
-    "type": "Peer-reviewed journal article",
-    "apa": "Henderson, P. W., & Cote, J. A. (1998). Guidelines for selecting or modifying logos. Journal of Marketing, 62(2), 14–30. https://doi.org/10.1177/002224299806200202",
-    "summary": "Henderson and Cote empirically analyze logo design characteristics and relate them to recognition, affect, and the communication of meaning. Their research distinguishes objectives such as high recognition, positive image, and low investment in processing, showing that logo effectiveness depends on measurable formal qualities and strategic goals.",
-    "evaluation": "Published in the peer-reviewed Journal of Marketing, this study provides stronger empirical grounding than practitioner logo manuals. Its sample and visual context reflect the period in which it was conducted, and contemporary digital reproduction introduces additional constraints. Even so, the study remains useful for linking formal logo attributes to recognition and response.",
-    "reflection": "This research made the Envue logo-selection process more explicit. Instead of choosing a mark solely through preference, concepts were compared for recognition, meaningfulness, complexity, balance, and adaptability. The study also supported evaluating the mark at small sizes and in simplified contexts where excessive detail would reduce recognition.",
-    "finding": "Logo characteristics should be selected according to strategic objectives for recognition, affect, and meaning rather than personal taste.",
-    "decision": "Score Envue logo concepts against recognition, meaningfulness, complexity, balance, and reproduction criteria before refinement.",
+    "id": "logo-design-love",
+    "title": "Logo Design Love",
+    "author": "David Airey",
+    "year": "2015",
+    "type": "Book",
+    "apa": "Airey, D. (2015). Logo design love: A guide to creating iconic brand identities (2nd ed.). New Riders.",
+    "summary": "Airey explains logo design as a strategic identity process that depends on research, relevance, simplicity, distinction, and appropriate execution. The book emphasizes that strong marks are not decorative symbols but visual decisions shaped by context, audience, meaning, and long-term usability.",
+    "evaluation": "This source is a professional design reference by an established identity designer. Its practical process and case-based explanations make it useful for evaluating logo development decisions, although it is not peer-reviewed research. It is most effective when paired with broader brand strategy sources that define what the mark must communicate.",
+    "reflection": "This source informed the Envue logo exploration by reinforcing the importance of simplicity, relevance, and distinctiveness. It encouraged evaluating the mark as part of a complete identity system rather than as an isolated graphic. This helped refine the symbol so it could support brand recognition, motion applications, and flexible visual extensions.",
+    "finding": "Effective logos are simple, relevant, distinctive, and built to support a larger identity system.",
+    "decision": "Refine the Envue mark for recognition, adaptability, simplicity, and connection to the broader brand system.",
     "artifact": {
       "label": "Logo identity",
-      "title": "Logo Concept Evaluation Matrix",
-      "detail": "A comparative assessment of Envue marks using strategic and evidence-based selection criteria.",
+      "title": "Envue Logo Exploration",
+      "detail": "A structured exploration and refinement process for developing a simple, recognizable, and system-ready brand mark.",
       "variant": "principles"
     }
   },
   {
-    "id": "mismatch",
-    "title": "Mismatch: How Inclusion Shapes Design",
-    "author": "Kat Holmes",
-    "year": "2018",
+    "id": "logos-that-last",
+    "title": "Logos That Last",
+    "author": "Allan Peters",
+    "year": "2023",
     "type": "Book",
-    "apa": "Holmes, K. (2018). Mismatch: How inclusion shapes design. MIT Press.",
-    "summary": "Holmes describes exclusion as a mismatch between a designed solution and the diversity of people or situations that encounter it. She argues that inclusive design should involve people who experience exclusion and shows how constraints can reveal opportunities for more flexible, innovative, and broadly useful solutions.",
-    "evaluation": "Published by MIT Press and grounded in Holmes’s leadership in inclusive design, the book combines practical cases with a clear conceptual model. It is not a formal accessibility specification, but it is valuable for understanding exclusion as a design responsibility and creative input. WCAG provides complementary testable criteria for digital implementation.",
-    "reflection": "This source expanded Envue’s inclusion goals beyond a compliance checklist. It prompted consideration of who might be excluded by fashion imagery, language, interaction assumptions, typography, and device behavior. It also reinforced designing with varied users and contexts rather than treating a single idealized audience as representative.",
-    "finding": "Exclusion occurs when a design assumes a narrow range of bodies, abilities, identities, technologies, or contexts.",
-    "decision": "Audit Envue’s language, imagery, interaction patterns, and representation for mismatches and document inclusive alternatives.",
+    "apa": "Peters, A. (2023). Logos that last: How to create iconic visual branding. Rockport Publishers.",
+    "summary": "Peters focuses on creating durable and iconic visual identities through simplification, memorability, refinement, and strategic reduction. The book presents logo design as an iterative process of removing excess while preserving character, meaning, and long-term recognition.",
+    "evaluation": "This source is a current professional logo-design reference published by Rockport Publishers. Its value lies in its practical emphasis on simplicity, longevity, and recognizable form. Because it is practitioner-based rather than empirical research, its guidance is best applied alongside brand strategy and audience validation.",
+    "reflection": "This source supported the final refinement of the Envue mark by emphasizing durability over trend-driven complexity. It encouraged reducing unnecessary detail and ensuring that the symbol remained memorable across small sizes, motion overlays, packaging, and digital applications. This helped the logo function as both a mark and a source for flexible pattern language.",
+    "finding": "Lasting logos rely on clear form, reduction, memorability, and adaptability across changing contexts.",
+    "decision": "Simplify the Envue mark so it can remain recognizable across static, motion, small-scale, and pattern-based applications.",
     "artifact": {
-      "label": "Inclusive design",
-      "title": "Inclusion & Representation Checklist",
-      "detail": "A review framework for identifying exclusion across content, imagery, interaction, and audience assumptions.",
-      "variant": "narrative"
-    }
-  },
-  {
-    "id": "wcag-22",
-    "title": "Web Content Accessibility Guidelines (WCAG) 2.2",
-    "author": "World Wide Web Consortium",
-    "year": "2024",
-    "type": "Technical standard",
-    "apa": "World Wide Web Consortium. (2024). Web Content Accessibility Guidelines (WCAG) 2.2. https://www.w3.org/TR/WCAG22/",
-    "summary": "WCAG 2.2 defines technology-independent success criteria for making web content perceivable, operable, understandable, and robust. The standard addresses alternatives for media, semantic relationships, contrast, reflow, keyboard operation, focus behavior, target size, navigation, and compatibility with assistive technologies.",
-    "evaluation": "WCAG is the authoritative international web-accessibility standard maintained through the W3C process. Its criteria are testable and directly relevant to implementation, although conformance does not guarantee that every disability-related need is addressed. It should be combined with inclusive research, usability testing, and platform-specific evaluation.",
-    "reflection": "This standard translated Envue’s accessibility intentions into concrete requirements. It informed semantic HTML, heading order, contrast, responsive reflow, keyboard behavior, focus management, motion preferences, and video transcript planning. It also established accessibility as a system-level quality that must hold across desktop and mobile variations.",
-    "finding": "Accessible experiences require verifiable behavior across content, interaction, presentation, and assistive-technology compatibility.",
-    "decision": "Use WCAG 2.2 Level AA as the implementation baseline and document accessibility checks within Envue’s design system.",
-    "artifact": {
-      "label": "Accessibility",
-      "title": "WCAG 2.2 Implementation Audit",
-      "detail": "A traceable checklist connecting success criteria to components, content, media, and responsive states.",
-      "variant": "principles"
-    }
-  },
-  {
-    "id": "dont-make-me-think",
-    "title": "Don't Make Me Think, Revisited",
-    "author": "Steve Krug",
-    "year": "2014",
-    "type": "Book",
-    "apa": "Krug, S. (2014). Don't make me think, revisited: A common sense approach to web usability (3rd ed.). New Riders.",
-    "summary": "Krug argues that digital interfaces should minimize unnecessary interpretation by using clear hierarchy, conventional patterns, concise language, obvious navigation, and focused usability testing. The book emphasizes scanning behavior and the importance of making choices and pathways understandable without requiring users to decode the designer’s intent.",
-    "evaluation": "This is a highly influential practitioner guide published by New Riders and informed by extensive usability work. Its principles are intentionally simplified and are not a substitute for formal user research or current accessibility standards. The clarity of its heuristics makes it effective for auditing navigation, content hierarchy, and interaction friction.",
-    "reflection": "Krug’s guidance reinforced the decision that the thesis website should frame Envue rather than imitate its brand campaign language. It led to clearer labels, restrained navigation, readable source structures, and progressive disclosure only where it reduced complexity. It also supported testing whether users could understand the research-to-decision relationship without explanation.",
-    "finding": "Users scan interfaces and rely on clear hierarchy, familiar conventions, and self-evident choices to move efficiently.",
-    "decision": "Prioritize plain labels, visible hierarchy, predictable navigation, and low-friction access to source analysis and artifacts.",
-    "artifact": {
-      "label": "UX hierarchy",
-      "title": "Thesis Information Architecture",
-      "detail": "A navigation and content hierarchy that makes the research, decisions, and artifacts easy to scan and locate.",
-      "variant": "system"
-    }
-  },
-  {
-    "id": "web-aesthetics",
-    "title": "Assessing Dimensions of Perceived Visual Aesthetics of Web Sites",
-    "author": "Talia Lavie and Noam Tractinsky",
-    "year": "2004",
-    "type": "Peer-reviewed journal article",
-    "apa": "Lavie, T., & Tractinsky, N. (2004). Assessing dimensions of perceived visual aesthetics of web sites. International Journal of Human-Computer Studies, 60(3), 269–298. https://doi.org/10.1016/j.ijhcs.2003.09.002",
-    "summary": "Across four studies, Lavie and Tractinsky identify two dimensions of perceived website aesthetics: classical aesthetics, associated with clarity, order, symmetry, and cleanliness, and expressive aesthetics, associated with creativity, originality, fascination, and sophistication. The study develops and validates measures for evaluating these distinct perceptions.",
-    "evaluation": "Published in the peer-reviewed International Journal of Human-Computer Studies, this research supplies empirical language for discussing visual quality beyond subjective preference. The study predates responsive and mobile-first conventions, but its distinction between classical and expressive aesthetics remains useful for evaluating information-oriented and brand-oriented digital surfaces.",
-    "reflection": "The two-dimensional model clarified the separation between the thesis website and Envue. The publication framework prioritizes classical aesthetics—order, clarity, and cleanliness—while Envue artifacts can carry more expressive qualities. This distinction helped prevent the container from competing visually with the project being documented.",
-    "finding": "Users perceive orderly classical aesthetics and creative expressive aesthetics as distinct but complementary dimensions.",
-    "decision": "Use classical aesthetics for the thesis framework and reserve expressive visual language for bounded Envue artifacts and campaign work.",
-    "artifact": {
-      "label": "Visual direction",
-      "title": "Dual Design-System Framework",
-      "detail": "A documented separation between the neutral thesis publication and Envue’s expressive brand identity.",
-      "variant": "narrative"
-    }
-  },
-  {
-    "id": "state-of-fashion-2025",
-    "title": "The State of Fashion 2025: Challenges at Every Turn",
-    "author": "The Business of Fashion and McKinsey & Company",
-    "year": "2024",
-    "type": "Industry report",
-    "apa": "The Business of Fashion, & McKinsey & Company. (2024). The state of fashion 2025: Challenges at every turn. McKinsey & Company.",
-    "summary": "The report examines economic uncertainty, price sensitivity, shifting consumer behavior, regional differences, climate pressures, technology, and changing sources of fashion-industry growth. It argues that brands must navigate a fragmented market while communicating differentiated value and responding to consumers whose expectations and purchasing priorities are changing.",
-    "evaluation": "The annual report combines industry analysis, executive survey data, and the perspectives of two prominent fashion-business organizations. It is current and directly relevant to Envue’s category, but it reflects a commercial and executive viewpoint rather than independent academic research. Its projections should be treated as strategic context rather than universal consumer truth.",
-    "reflection": "This source grounded Envue’s concept in current fashion conditions rather than design theory alone. It highlighted the need for clear value, coherent discovery, trust, and adaptability across touchpoints. The findings encouraged a brand system capable of connecting inspiration and information while remaining useful in a price-sensitive and uncertain market.",
-    "finding": "Fashion brands face fragmented discovery, value-conscious consumers, and pressure to communicate relevance across changing channels and markets.",
-    "decision": "Position Envue around coherent discovery and differentiated value, with a flexible system that remains recognizable across touchpoints.",
-    "artifact": {
-      "label": "Industry strategy",
-      "title": "Fashion Market Opportunity Map",
-      "detail": "Industry pressures, consumer shifts, opportunity areas, and strategic implications mapped to Envue’s positioning.",
+      "label": "Logo refinement",
+      "title": "Envue Final Mark System",
+      "detail": "A simplified logo system designed for recognition, scalability, motion use, and pattern extension.",
       "variant": "system"
     }
   },
@@ -217,8 +178,8 @@
     "type": "Peer-reviewed review article",
     "apa": "Niinimäki, K., Peters, G., Dahlbo, H., Perry, P., Rissanen, T., & Gwilt, A. (2020). The environmental price of fast fashion. Nature Reviews Earth & Environment, 1, 189–200. https://doi.org/10.1038/s43017-020-0039-9",
     "summary": "The authors synthesize environmental impacts across the fashion system, including fiber production, manufacturing, transportation, use, shortened garment lifetimes, and waste. They connect fast-fashion business models and consumption patterns to resource use and pollution while outlining the need for systemic changes in production, design, business models, and consumer behavior.",
-    "evaluation": "Published in the peer-reviewed Nature Reviews Earth & Environment, this article provides a broad scholarly synthesis with extensive references and multidisciplinary authorship. Its systems-level scope is a major strength, though it does not prescribe a specific communication strategy for one brand. An author correction also demonstrates the importance of checking quantitative claims and avoiding unsupported rankings.",
-    "reflection": "This source challenged Envue to treat sustainability as evidence rather than visual atmosphere. It informed a content model that separates claims, proof, provenance, and limitations and discouraged vague language that could imply more responsibility than the project can demonstrate. It also reinforced transparency about what a brand system can communicate versus what business operations must substantiate.",
+    "evaluation": "Published in the peer-reviewed Nature Reviews Earth & Environment, this article provides a broad scholarly synthesis with extensive references and multidisciplinary authorship. Its systems-level scope is a major strength, though it does not prescribe a specific communication strategy for one brand. This makes it most useful as industry context that must be translated carefully into design and messaging decisions.",
+    "reflection": "This source challenged Envue to treat sustainability as evidence rather than visual atmosphere. It informed a communication approach that separates claims, proof, provenance, and limitations instead of using vague ethical language. It also reinforced that a fashion-adjacent brand identity should avoid implying environmental responsibility unless the claim can be supported.",
     "finding": "Fashion’s environmental impact is systemic, so credible sustainability communication requires specificity, traceability, and operational evidence.",
     "decision": "Structure Envue’s sustainability communication around qualified claims and supporting evidence rather than generalized ethical messaging.",
     "artifact": {
@@ -227,6 +188,43 @@
       "detail": "A content standard for claims, sources, provenance, limitations, and evidence across Envue touchpoints.",
       "variant": "principles"
     }
+  },
+  {
+    "id": "aesthetic-usability-effect",
+    "title": "The Aesthetic-Usability Effect",
+    "author": "Kate Moran",
+    "year": "2024",
+    "type": "Industry article",
+    "apa": "Moran, K. (2024, February 3). The aesthetic-usability effect. Nielsen Norman Group. https://www.nngroup.com/articles/aesthetic-usability-effect/",
+    "summary": "Moran explains that users often perceive visually appealing interfaces as more usable and may become more tolerant of minor usability issues when visual design creates a positive emotional response. The article also warns that strong aesthetics cannot compensate for major usability problems and can mask issues during research.",
+    "evaluation": "Nielsen Norman Group is a respected UX research and consulting organization, and this article translates established human-computer interaction research into practical design guidance. It is an industry source rather than peer-reviewed scholarship, but it is useful because it connects visual quality, emotional response, and perceived usability in a way that directly applies to digital presentation.",
+    "reflection": "This source supported the decision to treat Envue’s visual refinement as functional rather than decorative. It validated the importance of careful typography, spacing, color restraint, and visual polish while also reinforcing that beauty cannot replace clarity. This influenced both the Envue brand applications and the thesis website’s need to remain readable, structured, and usable.",
+    "finding": "Aesthetic quality can improve perceived usability and professionalism, but it must support rather than obscure functionality.",
+    "decision": "Use refined visual design to strengthen trust and perceived quality while maintaining clear hierarchy, readability, and task support.",
+    "artifact": {
+      "label": "Visual usability",
+      "title": "Envue Presentation Refinement",
+      "detail": "A set of visual refinement decisions connecting polish, hierarchy, perceived quality, and usability.",
+      "variant": "principles"
+    }
+  },
+  {
+    "id": "consistency-and-standards",
+    "title": "Maintain Consistency and Adhere to Standards",
+    "author": "Rachel Krause",
+    "year": "2021",
+    "type": "Industry article",
+    "apa": "Krause, R. (2021, January 10). Maintain consistency and adhere to standards (Usability Heuristic #4). Nielsen Norman Group. https://www.nngroup.com/articles/consistency-and-standards/",
+    "summary": "Krause explains how internal and external consistency improve learnability, reduce confusion, and help users transfer knowledge between experiences. The article emphasizes shared design systems, consistent visuals, repeated content patterns, familiar conventions, and standards that support usability across products and touchpoints.",
+    "evaluation": "This article is published by Nielsen Norman Group and is grounded in Jakob Nielsen’s widely used usability heuristics. It is an industry source rather than peer-reviewed scholarship, but its practical guidance is highly relevant to brand systems, digital experiences, and interface consistency. Its usefulness lies in translating consistency into observable design and content behaviors.",
+    "reflection": "This source directly supported Envue’s style guide, component approach, and cross-channel consistency. It reinforced the need for repeated typography rules, layout patterns, color usage, image treatment, and content tone across brand touchpoints. It also supported the thesis website’s neutral structure by showing that consistency helps users focus on content rather than decoding the interface.",
+    "finding": "Consistency reduces cognitive effort by allowing users to apply familiar expectations across visuals, content, and interaction patterns.",
+    "decision": "Establish repeatable standards for typography, layout, color, content tone, navigation, and component behavior across Envue’s identity system.",
+    "artifact": {
+      "label": "Design system",
+      "title": "Envue Consistency Standards",
+      "detail": "A documented set of reusable standards for layout, typography, content, navigation, and visual treatment.",
+      "variant": "system"
+    }
   }
-  ]
-}
+]
