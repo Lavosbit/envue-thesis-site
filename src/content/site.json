@@ -1,0 +1,23 @@
+{
+  "title": "Envue Thesis",
+  "subtitle": "Research, Strategy & Design Development",
+  "navigationLabel": "Thesis sections",
+  "menuLabels": {
+    "open": "Open navigation",
+    "close": "Close navigation"
+  },
+  "navigation": [
+    { "id": "overview", "label": "Overview", "href": "#overview", "enabled": true },
+    { "id": "research", "label": "Research", "href": "#research", "enabled": false },
+    { "id": "bibliography", "label": "Bibliography", "href": "#top", "enabled": true, "active": true },
+    { "id": "findings", "label": "Findings", "href": "#findings", "enabled": false },
+    { "id": "recommendations", "label": "Recommendations", "href": "#recommendations", "enabled": false },
+    { "id": "final-thesis", "label": "Final Thesis", "href": "#final-thesis", "enabled": false }
+  ],
+  "footer": {
+    "copyright": "© 2026 Envue Thesis · Research archive",
+    "links": [
+      { "id": "back-to-top", "label": "Back to top ↑", "href": "#top" }
+    ]
+  }
+}

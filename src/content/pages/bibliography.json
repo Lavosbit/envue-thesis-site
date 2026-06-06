@@ -1,0 +1,95 @@
+{
+  "pageKey": "bibliography-page",
+  "hero": {
+    "id": "hero",
+    "title": "Annotated Bibliography",
+    "summary": "A research archive documenting the books, articles, and industry sources that shaped Envue’s brand strategy, visual identity, user experience principles, typography, logo development, sustainability context, and system design.",
+    "meta": [
+      {
+        "id": "project",
+        "label": "Project",
+        "value": "Envue Thesis Case Study"
+      },
+      {
+        "id": "phase",
+        "label": "Phase",
+        "value": "Week 01 · Research Foundation"
+      },
+      {
+        "id": "updated",
+        "label": "Updated",
+        "value": "June 6, 2026"
+      }
+    ],
+    "video": {
+      "label": "Video Synopsis",
+      "title": "Research Overview",
+      "description": "A 60–90 second synopsis explaining the most persuasive research connections behind Envue’s identity system, visual language, and design decisions.",
+      "meta": "60–90 sec · Video synopsis",
+      "status": {
+        "idle": "Research overview",
+        "playing": "Playing synopsis"
+      },
+      "controls": {
+        "play": "Play research overview",
+        "pause": "Pause research overview",
+        "showTranscript": "Read transcript",
+        "hideTranscript": "Hide transcript"
+      },
+      "transcript": {
+        "label": "Transcript excerpt",
+        "body": "This research phase connects Envue’s major design decisions to twelve selected sources: nine books and three supporting articles. Together, these sources informed the brand strategy, identity standards, emotional tone, typography, visual system, logo refinement, sustainability context, and user experience principles behind the project."
+      }
+    }
+  },
+  "overview": {
+    "id": "overview",
+    "number": "01",
+    "title": "Research Framework",
+    "body": "Research for Envue was organized around a clear relationship between source material, design decisions, and final artifacts. The selected bibliography includes brand strategy texts, identity design references, typography and systems books, UX research, and fashion-related sustainability context. Each annotation explains what the source contributed, how reliable or limited it is, and where its influence appears in the project.",
+    "pathLabel": "Research-to-design relationship",
+    "steps": [
+      {
+        "id": "research-source",
+        "icon": "book",
+        "title": "Research Source",
+        "body": "Books, UX articles, and fashion-related research that informed Envue’s development."
+      },
+      {
+        "id": "design-decision",
+        "icon": "sliders",
+        "title": "Design Decision",
+        "body": "The specific strategic, visual, typographic, experiential, or system-level choice shaped by the research."
+      },
+      {
+        "id": "related-artifact",
+        "icon": "file",
+        "title": "Envue Artifact",
+        "body": "The brand strategy, style guide, visual system, logo work, campaign media, or thesis presentation element where the research influence becomes visible."
+      }
+    ]
+  },
+  "bibliography": {
+    "id": "bibliography",
+    "number": "02",
+    "title": "Annotated Sources",
+    "intro": "The following twelve sources represent the primary research foundation for Envue. Each annotation includes a summary, evaluation, and reflection that connects the source to a specific design decision and related project artifact.",
+    "indexLabel": "Source Index",
+    "indexAriaLabel": "Source Index",
+    "sourceLabels": {
+      "sourceType": "Source Type",
+      "year": "Publication Year",
+      "analysis": "Annotated Analysis",
+      "summary": "Summary",
+      "evaluation": "Evaluation",
+      "reflection": "Reflection",
+      "finding": "Key Finding",
+      "decision": "Design Decision Influenced"
+    },
+    "artifactLabels": {
+      "related": "Related Envue Artifact",
+      "view": "View Artifact",
+      "mark": "E"
+    }
+  }
+}
