@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tinacms dev -c \"vite --host 127.0.0.1\"",
     "dev:site": "vite --host 127.0.0.1",
-    "build": "tinacms build && tsc -b && vite build",
+    "build": "tsc -b && vite build",
     "build:site": "tsc -b && vite build",
     "tina:audit": "tinacms audit",
     "preview": "vite preview",
