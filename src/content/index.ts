@@ -9,9 +9,9 @@ import type {
 
 export const siteContent = siteJson as SiteContent;
 export const bibliographyPageContent =
-  bibliographyPageJson as BibliographyPageContent;
+  bibliographyPageJson as unknown as BibliographyPageContent;
 export const bibliographySources =
-  bibliographySourcesJson as BibliographySource[];
+  bibliographySourcesJson as unknown as BibliographySource[];
 
 export function getBibliographySection<
   Id extends keyof Omit<BibliographyPageContent, "pageKey">,

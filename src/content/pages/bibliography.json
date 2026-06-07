@@ -38,7 +38,7 @@
       },
       "transcript": {
         "label": "Transcript excerpt",
-        "body": "This research phase connects Envue’s major design decisions to twelve selected sources: nine books and three supporting articles. Together, these sources informed the brand strategy, identity standards, emotional tone, typography, visual system, logo refinement, sustainability context, and user experience principles behind the project."
+        "body": "This research phase connects Envue’s major design decisions from the selected sources: nine books and three supporting articles. Together, these sources informed the brand strategy, identity standards, emotional tone, typography, visual system, logo refinement, sustainability context, and user experience principles behind the project."
       }
     }
   },
@@ -73,7 +73,7 @@
     "id": "bibliography",
     "number": "02",
     "title": "Annotated Sources",
-    "intro": "The following twelve sources represent the primary research foundation for Envue. Each annotation includes a summary, evaluation, and reflection that connects the source to a specific design decision and related project artifact.",
+    "body": "This research phase connects Envue’s major design decisions to thirteen selected sources spanning brand strategy, identity design, typography, visual systems, user experience, and sustainability research. Together, these sources informed the brand strategy, identity standards, emotional tone, typography, visual system, logo refinement, sustainability context, and user experience principles behind the project.",
     "indexLabel": "Source Index",
     "indexAriaLabel": "Source Index",
     "sourceLabels": {

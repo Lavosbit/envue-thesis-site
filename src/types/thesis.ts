@@ -12,7 +12,20 @@ export type BibliographySource = {
   id: string;
   title: string;
   author: string;
-  apa: string;
+
+  apa:
+    | string
+    | {
+        prefix: string;
+        title: string;
+        suffix: string;
+        url?: string;
+        citationKind?: "book" | "webArticle" | "journalArticle";
+        journal?: string;
+        volume?: string;
+        pages?: string;
+      };
+
   type: string;
   year: string;
   summary: string;
