@@ -19,8 +19,8 @@ export function VideoSynopsis({
       <div className="youtube-embed-shell">
         <iframe
           className="youtube-embed"
-          src="https://www.youtube.com/embed/n_3Tw4WASoU"
-          title="Research Overview"
+          src={content.embedUrl}
+          title={content.title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         />

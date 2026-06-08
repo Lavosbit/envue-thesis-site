@@ -64,6 +64,7 @@ export type HeroSectionContent = {
   video: {
     label: string;
     title: string;
+    embedUrl: string;
     description: string;
     meta: string;
     status: { idle: string; playing: string };

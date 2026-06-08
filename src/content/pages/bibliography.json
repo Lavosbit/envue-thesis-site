@@ -24,9 +24,9 @@
     "video": {
       "label": "Video Synopsis",
       "title": "Research Overview",
-      "description": "A 60–90 second synopsis demonstrating how research was synthesized and applied throughout Envue's identity development.",
-      "meta": "60–90 sec · Video synopsis",
-      "embedUrl": "https://www.youtube.com/embed/n_3Tw4WASoU",
+      "description": "A video synopsis demonstrating how research was synthesized and applied throughout Envue's identity development.",
+      "meta": "88 sec",
+      "embedUrl": "https://www.youtube.com/embed/X-163njNiP0?rel=0",
       "status": {
         "idle": "Research overview",
         "playing": "Playing synopsis"
