@@ -23,9 +23,10 @@ export function SiteHeader() {
 
       if (event.key !== "Tab" || !navigationRef.current) return;
 
-      const focusable = [menuButtonRef.current, ...navigationRef.current.querySelectorAll<HTMLElement>("a[href]")].filter(
-        (element): element is HTMLElement => Boolean(element),
-      );
+      const focusable = [
+        menuButtonRef.current,
+        ...navigationRef.current.querySelectorAll<HTMLElement>("a[href]"),
+      ].filter((element): element is HTMLElement => Boolean(element));
       const first = focusable[0];
       const last = focusable[focusable.length - 1];
 
@@ -63,7 +64,11 @@ export function SiteHeader() {
         <button
           aria-controls="primary-navigation"
           aria-expanded={menuOpen}
-          aria-label={menuOpen ? siteContent.menuLabels.close : siteContent.menuLabels.open}
+          aria-label={
+            menuOpen
+              ? siteContent.menuLabels.close
+              : siteContent.menuLabels.open
+          }
           className="menu-button"
           onClick={() => setMenuOpen((open) => !open)}
           ref={menuButtonRef}
@@ -84,17 +89,35 @@ export function SiteHeader() {
               transition={{ duration: 0.24, ease: motionEase }}
             >
               <div className="mobile-nav-links">
-                {siteContent.navigation.map((item, index) => (
+                {siteContent.navigation.map((item, index) =>
                   item.enabled ? (
                     <motion.a
                       animate={{ opacity: 1, y: 0 }}
-                      aria-current={item.active ? "page" : undefined}
-                      className={item.active ? "active" : ""}
+                      aria-current={
+                        (item.id === "bibliography" &&
+                          window.location.pathname === "/") ||
+                        (item.id === "collaboration" &&
+                          window.location.pathname === "/collaboration")
+                          ? "page"
+                          : undefined
+                      }
+                      className={
+                        (item.id === "bibliography" &&
+                          window.location.pathname === "/") ||
+                        (item.id === "collaboration" &&
+                          window.location.pathname === "/collaboration")
+                          ? "active"
+                          : ""
+                      }
                       href={item.href}
                       initial={isMobile ? { opacity: 0, y: 12 } : false}
                       key={item.id}
                       onClick={() => setMenuOpen(false)}
-                      transition={{ delay: isMobile ? index * 0.045 : 0, duration: 0.35, ease: motionEase }}
+                      transition={{
+                        delay: isMobile ? index * 0.045 : 0,
+                        duration: 0.35,
+                        ease: motionEase,
+                      }}
                     >
                       {item.label}
                     </motion.a>
@@ -106,12 +129,16 @@ export function SiteHeader() {
                       initial={isMobile ? { opacity: 0, y: 12 } : false}
                       key={item.id}
                       title={`${item.label} is not available yet`}
-                      transition={{ delay: isMobile ? index * 0.045 : 0, duration: 0.35, ease: motionEase }}
+                      transition={{
+                        delay: isMobile ? index * 0.045 : 0,
+                        duration: 0.35,
+                        ease: motionEase,
+                      }}
                     >
                       {item.label}
                     </motion.span>
-                  )
-                ))}
+                  ),
+                )}
               </div>
               {isMobile ? (
                 <motion.div

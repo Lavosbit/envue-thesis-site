@@ -15,29 +15,55 @@ export function OverviewSection() {
   const content = getBibliographySection("overview");
 
   return (
-    <section aria-labelledby="overview-title" className="overview page-shell" id="overview">
+    <section
+      aria-labelledby="overview-title"
+      className="overview page-shell"
+      id="overview"
+    >
       <Reveal>
-        <SectionHeading headingId="overview-title" number={content.number} title={content.title} />
+        <SectionHeading
+          headingId="overview-title"
+          number={content.number}
+          title={content.title}
+        />
       </Reveal>
       <Reveal as="p" className="overview-intro" delay={0.08}>
         {content.body}
       </Reveal>
       <ol className="evidence-path" aria-label={content.pathLabel}>
         {content.steps.map((step, index) => (
-          <PathStep body={step.body} index={index} key={step.id} title={step.title} icon={overviewIcons[step.icon]} />
+          <PathStep
+            body={step.body}
+            index={index}
+            key={step.id}
+            title={step.title}
+            icon={overviewIcons[step.icon]}
+          />
         ))}
       </ol>
     </section>
   );
 }
 
-function PathStep({ icon, title, body, index }: { icon: ReactNode; title: string; body: string; index: number }) {
+function PathStep({
+  icon,
+  title,
+  body,
+  index,
+}: {
+  icon: ReactNode;
+  title: string;
+  body: string;
+  index: number;
+}) {
   return (
     <>
       {index > 0 ? (
-        <span aria-hidden="true" className="path-arrow">
-          →
-        </span>
+        <Reveal>
+          <span aria-hidden="true" className="path-arrow">
+            →
+          </span>
+        </Reveal>
       ) : null}
       <Reveal as="li" className="path-step" delay={index * 0.1}>
         <span className="step-number">{index + 1}</span>

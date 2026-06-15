@@ -1,0 +1,227 @@
+[
+  {
+    "id": "typography-hierarchy",
+    "title": "Typography Hierarchy Refinement",
+    "type": "Self-Assessment",
+    "focus": "Typography + hierarchy",
+    "context": "A review of the developing look-and-feel board showed that the typographic hierarchy was not clearly guiding attention across the layout.",
+    "assessment": "The assessment focused on whether headings, supporting labels, and content were creating a clear reading order. The concern was that the typography felt visually styled but not yet fully structured.",
+    "revision": "Header scale, spacing, and visual contrast were adjusted to establish a clearer hierarchy between primary headings, supporting labels, and content. These changes created a more predictable reading order and improved the balance between expressive typography and functional clarity.",
+    "status": "accepted",
+    "source": [
+      {
+        "citation": "Lupton, 2024",
+        "reference": "Lupton, E. (2024). Thinking with type: A critical guide for designers, writers, editors, and students (3rd ed., rev. and expanded). Princeton Architectural Press.",
+        "url": null
+      },
+      {
+        "citation": null,
+        "reference": "Yablonski, J. (2024). Laws of UX: Using psychology to design better products & services (2nd ed.).",
+        "url": "https://learning.oreilly.com/library/view/laws-of-ux/9781098146955/"
+      }
+    ]
+  },
+
+  {
+    "id": "attribute-contrast-balance",
+    "title": "Attribute Contrast Balance",
+    "type": "Self-Assessment",
+    "focus": "Visual balance + emotional tone",
+    "context": "The attribute system initially created too much contrast within the visual board. Although the attributes were useful, their presentation competed with the softer visual language Envue was developing.",
+    "assessment": "The assessment considered whether contrast was helping the design communicate clearly or making the system feel visually imbalanced.",
+    "revision": "Typography weight, contrast, and spacing within the attribute system were adjusted so the language remained visible without overpowering the surrounding composition. These revisions reduced visual competition and helped the system feel more cohesive, calm, and emotionally grounded.",
+    "status": "accepted",
+    "source": [
+      {
+        "citation": "Lidwell, Holden, & Butler, 2023",
+        "reference": "Lidwell, W., Holden, K., & Butler, J. (2023). Universal principles of design (Updated and expanded 3rd ed.). Rockport Publishers."
+      },
+      {
+        "citation": "Moran, 2024",
+        "reference": "Moran, K. (2024, February 3). The aesthetic-usability effect. Nielsen Norman Group.",
+        "url": "https://www.nngroup.com/articles/aesthetic-usability-effect/"
+      }
+    ]
+  },
+
+  {
+    "id": "vision-board-emotional-alignment",
+    "title": "Vision Board Emotional Alignment",
+    "type": "Self-Assessment",
+    "focus": "Brand attributes + visual direction",
+    "context": "The vision board was evaluated against Envue’s core attributes of calm, contemporary, cohesive, unified, and emotionally grounded.",
+    "assessment": "The assessment considered whether contrast was helping the design communicate clearly or making the system feel visually imbalanced. Particular attention was given to whether the attribute system supported Envue's intended tone of calmness and emotional grounding.",
+    "revision": "Imagery was curated to emphasize warmth, softness, and human connection, while spacing and compositional balance were refined to reinforce Envue's values of calmness, cohesion, and emotional grounding. These revisions aligned the visual direction more closely with the intended brand experience of quiet confidence and approachability.",
+    "status": "accepted",
+    "source": [
+      {
+        "citation": "Neumeier, 2015",
+        "reference": "Neumeier, M. (2015). The brand flip: Why customers now run companies and how to profit from it. New Riders.",
+        "url": "https://learning.oreilly.com/library/view/the-brand-flip/9780134173009/"
+      },
+      {
+        "citation": "Norman, 2004",
+        "reference": "Norman, D. A. (2004). Emotional design: Why we love (or hate) everyday things. Basic Books."
+      }
+    ]
+  },
+
+  {
+    "id": "color-swatch-shape",
+    "title": "Color Swatch Shape Refinement",
+    "type": "Self-Assessment",
+    "focus": "Visual semantics + brand perception",
+    "context": "Color swatches were originally presented as squares, but their appearance felt too rigid and visually similar to surrounding content blocks.",
+    "assessment": "The assessment explored whether shape itself could reinforce Envue's values of approachability, softness, and trust while creating clearer visual differentiation from surrounding content.",
+    "revision": "Swatches were redesigned as circles to create clearer visual distinction from surrounding content and subtly reinforce Envue's softer visual language. The change introduced a more approachable and organic feeling while improving the readability of the overall system.",
+    "status": "accepted",
+    "source": [
+      {
+        "citation": null,
+        "reference": "Lidwell, W., Holden, K., & Butler, J. (2023). Universal principles of design (Updated and expanded 3rd ed.). Rockport Publishers."
+      },
+      {
+        "citation": "",
+        "reference": "",
+        "url": null
+      }
+    ]
+  },
+
+  {
+    "id": "flexible-system-rules",
+    "title": "Flexible System Rules",
+    "type": "Self-Assessment",
+    "focus": "Scalable identity system",
+    "context": "As the brand expanded into motion, collateral, and digital experiences, individual assets needed to operate as a cohesive system rather than isolated deliverables.",
+    "assessment": "The assessment focused on whether repeated visual rules could maintain recognition while adapting across different formats and media. The goal was to create a system that was flexible enough to evolve without sacrificing consistency or brand identity.",
+    "revision": "Reusable components, repeated forms, and shared layout logic were adopted so the identity could scale across print, motion, and digital experiences while preserving its core relationships. This created a system that remained recognizable even as individual applications evolved.",
+    "status": "accepted",
+    "source": [
+      {
+        "citation": null,
+        "reference": "Lorenz, M. (2021). Flexible visual systems. Slanted Publishers."
+      },
+      {
+        "citation": "Wheeler & Meyerson, 2024",
+        "reference": "Wheeler, A., & Meyerson, R. (2024). Designing brand identity: A comprehensive guide to the world of brands and branding (6th ed.). Wiley.",
+        "url": null
+      }
+    ]
+  },
+
+  {
+    "id": "website-clarity",
+    "title": "Clarity Across Digital Touchpoints",
+    "type": "Self-Assessment",
+    "focus": "UX clarity + content organization",
+    "context": "The digital presentation of Envue needed to communicate research, strategy, and design decisions without increasing cognitive effort or obscuring the relationships between them.",
+    "assessment": "The assessment focused on whether navigation, hierarchy, labels, and content grouping made the project easy to understand. The goal was to reduce cognitive friction while preserving the depth and complexity of the research.",
+    "revision": "The content structure was organized around clear page sections, predictable navigation, anchor-based wayfinding, and consistent information patterns. Progressive disclosure was used to balance depth with readability, allowing complex research to remain accessible without overwhelming the audience.",
+    "status": "accepted",
+    "source": [
+      {
+        "citation": null,
+        "reference": "Krug, S. (2005). Don't make me think!: A common sense approach to Web usability (2nd ed.). New Riders.",
+        "url": "https://learning.oreilly.com/library/view/dont-make-me/0321344758/"
+      },
+      {
+        "citation": "",
+        "reference": "",
+        "url": null
+      }
+    ]
+  },
+
+  {
+    "id": "customization-vs-homogeneity",
+    "title": "Customization and Brand Expression",
+    "type": "Instructor Feedback",
+    "focus": "Brand positioning",
+    "context": "Early concepts emphasized calm aesthetics and visual consistency, but risked communicating sameness rather than personal expression.",
+    "assessment": "Instructor feedback questioned whether Envue’s solution to self-expression unintentionally promoted homogeneity rather than individuality.",
+    "revision": "The brand direction shifted toward customization, adaptable identity elements, and messaging that celebrated personal expression rather than conformity.",
+    "status": "accepted",
+    "source": [
+      {
+        "citation": null,
+        "reference": "Instructor feedback on Envue thesis identity direction and customization."
+      },
+      {
+        "citation": "Neumeier, 2015",
+        "reference": "Neumeier, M. (2015). The brand flip: Why customers now run companies and how to profit from it. New Riders.",
+        "url": "https://learning.oreilly.com/library/view/the-brand-flip/9780134173009/"
+      }
+    ]
+  },
+
+  {
+    "id": "logo-symbol-refinement",
+    "title": "Logo Symbol Refinement",
+    "type": "Instructor Feedback",
+    "focus": "Logo recognition + symbolism",
+    "context": "Multiple logo directions were explored, with feedback identifying both successful emotional qualities and unintended interpretations.",
+    "assessment": "The symbol was evaluated for memorability, emotional tone, recognizability, and potential visual ambiguity.",
+    "revision": "The final direction emphasized stronger curves, cleaner forms, and clearer symbolic relationships while reducing unintended associations.",
+    "status": "accepted",
+    "source": [
+      {
+        "citation": null,
+        "reference": "Instructor feedback on Envue logo exploration and refinement."
+      },
+      {
+        "citation": "Airey, 2015",
+        "reference": "Airey, D. (2015). Logo design love: A guide to creating iconic brand identities (2nd ed.). New Riders.",
+        "url": "https://learning.oreilly.com/library/view/logo-design-love/9780321657251/"
+      },
+      {
+        "citation": "Peters, 2023",
+        "reference": "Peters, A. (2023). Logos that last: How to create iconic visual branding. Rockport Publishers.",
+        "url": "https://learning.oreilly.com/library/view/logos-that-last/9780760383186/"
+      }
+    ]
+  },
+
+  {
+    "id": "brand-launch-cta",
+    "title": "Brand Launch Call-to-Action",
+    "type": "Instructor Feedback",
+    "focus": "Audience engagement",
+    "context": "The launch video established a calming emotional atmosphere but concluded without directing viewers toward a specific next step.",
+    "assessment": "Instructor feedback noted that mood and visual polish were strong, but audience engagement would benefit from a clearer call to action.",
+    "revision": "Future iterations include intentional audience actions such as learning more, exploring the brand, or engaging directly with the experience.",
+    "status": "accepted",
+    "source": [
+      {
+        "citation": null,
+        "reference": "Instructor feedback on Envue Brand Launch Video."
+      },
+      {
+        "citation": "Norman, 2004",
+        "reference": "Norman, D. A. (2004). Emotional design: Why we love (or hate) everyday things. Basic Books."
+      }
+    ]
+  },
+  {
+    "id": "research-accessibility",
+    "title": "Research Accessibility and Progressive Disclosure",
+    "type": "Instructor Feedback",
+    "focus": "Information architecture + accessibility",
+    "context": "The Bibliography page used progressive disclosure to present detailed annotations while maintaining a scannable research archive.",
+    "assessment": "Instructor feedback praised the organization but noted that nested annotations could slow the evaluation process for academic review.",
+    "revision": "The progressive disclosure model was retained while supplementary PDF and Word formats were planned to provide unrestricted access to the full research archive.",
+    "status": "accepted",
+    "source": [
+      {
+        "citation": null,
+        "reference": "Instructor feedback received during the development of the Envue Thesis website regarding bibliography presentation, progressive disclosure, and information architecture.",
+        "url": null
+      },
+      {
+        "citation": null,
+        "reference": "Krug, S. (2005). Don't make me think!: A common sense approach to Web usability (2nd ed.). New Riders.",
+        "url": "https://learning.oreilly.com/library/view/dont-make-me/0321344758/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "pageKey": "collaboration-page",
+  "hero": {
+    "id": "hero",
+    "title": "Collaboration",
+    "summary": "A documentation page examining how critique, self-assessment, and design evaluation shaped the development of Envue’s brand identity system.",
+    "meta": [
+      {
+        "id": "project",
+        "label": "Project",
+        "value": "Envue Thesis Case Study"
+      },
+      {
+        "id": "phase",
+        "label": "Phase",
+        "value": "Week 02 · Collaboration + Self-Assessment"
+      },
+      {
+        "id": "updated",
+        "label": "Updated",
+        "value": "June 14, 2026"
+      }
+    ],
+    "video": {
+      "label": "Video Synopsis",
+      "title": "Collaboration Overview",
+      "description": "A synopsis explaining how critique and self-assessment informed revisions to Envue’s strategy, visual identity, typography, and system design.",
+      "meta": "89 sec",
+      "embedUrl": "https://www.youtube.com/embed/oWkM206t4E4?si=0SjurY1m5vR1cav_"
+    }
+  },
+  "overview": {
+    "id": "overview",
+    "number": "01",
+    "title": "Evaluation Framework",
+    "body": "Collaboration for Envue was documented through a combination of feedback review and self-assessment. Each entry explains the design concern, evaluates the value of the critique or assessment, identifies the source used to validate the decision, and describes how the resulting revision improved the brand identity system.",
+    "pathLabel": "Evaluation-to-revision relationship",
+    "steps": [
+      {
+        "id": "critique",
+        "icon": "book",
+        "title": "Feedback or Self-Assessment",
+        "body": "A critique, observation, or design concern identified during Envue’s development."
+      },
+      {
+        "id": "evaluation",
+        "icon": "sliders",
+        "title": "Evaluation",
+        "body": "The reasoning process used to determine whether the critique or concern improved the broader brand identity."
+      },
+      {
+        "id": "revision",
+        "icon": "file",
+        "title": "Revision Outcome",
+        "body": "The resulting change to typography, layout, visual hierarchy, messaging, or system consistency."
+      }
+    ]
+  },
+  "collaboration": {
+    "id": "collaboration",
+    "number": "02",
+    "title": "Feedback + Self-Assessment Entries",
+    "intro": "The following entries document how critique and self-assessment shaped Envue’s development. Each entry connects a design concern to a validated revision and explains how the change improved clarity, cohesion, flexibility, or emotional alignment.",
+    "indexLabel": "Entry Index",
+    "indexAriaLabel": "Collaboration Entry Index",
+    "entryLabels": {
+      "entryType": "Entry Type",
+      "focus": "Design Focus",
+      "analysis": "Evaluation Summary",
+      "context": "Context",
+      "assessment": "Assessment",
+      "revision": "Revision Applied",
+      "source": "Supporting Source"
+    },
+    "comparisonLabels": {
+      "before": "Before",
+      "after": "After"
+    }
+  }
+}

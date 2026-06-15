@@ -1,26 +1,24 @@
 import { useEffect, useState } from "react";
 import { formatIndex } from "../../utils/format";
 
-export type SourceIndexItem = {
+export type ScrollSpyIndexItem = {
   id: string;
   title: string;
   meta?: string;
 };
 
-export function SourceIndex({
+export function ScrollSpyIndex({
   ariaLabel,
   label,
-  items = [],
+  items,
 }: {
   ariaLabel: string;
   label: string;
-  items?: SourceIndexItem[];
+  items: ScrollSpyIndexItem[];
 }) {
   const [activeId, setActiveId] = useState(items[0]?.id ?? "");
 
   useEffect(() => {
-    if (!items.length) return;
-
     const updateActiveItem = () => {
       const scrollPosition = window.scrollY + 140;
 

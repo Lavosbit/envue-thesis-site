@@ -132,3 +132,52 @@ export type BibliographyPageContent = {
   overview: OverviewSectionContent;
   bibliography: Omit<BibliographySectionContent, "sources">;
 };
+
+export type CollaborationEntryStatus = "accepted" | "rejected";
+
+export type CollaborationEntry = {
+  id: string;
+  title: string;
+  type: string;
+  status?: CollaborationEntryStatus;
+  focus: string;
+  context: string;
+  assessment: string;
+  revision: string;
+  source: Array<{
+    citation?: string | null;
+    reference?: string | null;
+    url?: string | null;
+  }>;
+  images?: {
+    before?: string;
+    after?: string;
+  };
+};
+
+export type CollaborationPageContent = {
+  pageKey: "collaboration-page";
+  hero: HeroSectionContent;
+  overview: OverviewSectionContent;
+  collaboration: {
+    id: "collaboration";
+    number: string;
+    title: string;
+    intro: string;
+    indexLabel: string;
+    indexAriaLabel: string;
+    entryLabels: {
+      entryType: string;
+      focus: string;
+      analysis: string;
+      context: string;
+      assessment: string;
+      revision: string;
+      source: string;
+    };
+    comparisonLabels: {
+      before: string;
+      after: string;
+    };
+  };
+};
