@@ -1,52 +1,18 @@
 // src/pages/CollaborationPage.tsx
 
 import type { ReactNode } from "react";
-import { useEffect, useState } from "react";
 import { CheckSquare, MessageSquare, Sliders } from "react-feather";
 import content from "../content/collaboration.json";
 import entries from "../content/collaboration-entries.json";
+import { SourceIndex } from "../components/bibliography/SourceIndex";
 import { Reveal } from "../components/ui/Reveal";
 import type { CollaborationEntry } from "../types/thesis";
 import { formatIndex } from "../utils/format";
-import { SourceIndex } from "../components/bibliography/SourceIndex";
 
 const icons = [MessageSquare, Sliders, CheckSquare];
 
 export function CollaborationPage() {
   const typedEntries = entries as CollaborationEntry[];
-  const [activeEntryId, setActiveEntryId] = useState(typedEntries[0]?.id ?? "");
-
-  useEffect(() => {
-    const sections = typedEntries
-      .map((entry) => document.getElementById(entry.id))
-      .filter((section): section is HTMLElement => Boolean(section));
-
-    if (!sections.length) return;
-
-    const observer = new IntersectionObserver(
-      (observedEntries) => {
-        const visibleEntry = observedEntries
-          .filter((entry) => entry.isIntersecting)
-          .sort(
-            (a, b) =>
-              Math.abs(a.boundingClientRect.top) -
-              Math.abs(b.boundingClientRect.top),
-          )[0];
-
-        if (visibleEntry?.target.id) {
-          setActiveEntryId(visibleEntry.target.id);
-        }
-      },
-      {
-        rootMargin: "-18% 0px -65% 0px",
-        threshold: 0,
-      },
-    );
-
-    sections.forEach((section) => observer.observe(section));
-
-    return () => observer.disconnect();
-  }, [typedEntries]);
 
   return (
     <>
@@ -146,8 +112,8 @@ export function CollaborationPage() {
         <div className="sources-layout">
           <Reveal as="aside" className="source-index" delay={0.05}>
             <SourceIndex
-              ariaLabel={content.indexAriaLabel}
-              label={content.indexLabel}
+              ariaLabel={content.collaboration.indexAriaLabel}
+              label={content.collaboration.indexLabel}
               items={typedEntries.map((entry) => ({
                 id: entry.id,
                 title: entry.title,
