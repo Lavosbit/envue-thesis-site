@@ -8,16 +8,10 @@
   },
   "navigation": [
     {
-      "id": "overview",
-      "label": "Overview",
-      "href": "/#overview",
+      "id": "project",
+      "label": "Project",
+      "href": "/project",
       "enabled": true
-    },
-    {
-      "id": "research",
-      "label": "Research",
-      "href": "#research",
-      "enabled": false
     },
     {
       "id": "bibliography",
@@ -30,28 +24,10 @@
       "label": "Collaboration",
       "href": "/collaboration",
       "enabled": true
-    },
-    {
-      "id": "findings",
-      "label": "Findings",
-      "href": "#findings",
-      "enabled": false
-    },
-    {
-      "id": "recommendations",
-      "label": "Recommendations",
-      "href": "#recommendations",
-      "enabled": false
-    },
-    {
-      "id": "final-thesis",
-      "label": "Final Thesis",
-      "href": "#final-thesis",
-      "enabled": false
     }
   ],
   "footer": {
-    "copyright": "© 2026 Envue Thesis · Research archive",
+    "copyright": "© 2026 Envue Thesis · MFA Thesis Project",
     "links": [{ "id": "back-to-top", "label": "Back to top ↑", "href": "#top" }]
   }
 }

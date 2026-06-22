@@ -1,0 +1,175 @@
+{
+  "hero": {
+    "title": "Project Page",
+    "summary": "This page demonstrates the Solving Problems Program Learning Outcome by documenting how research, iteration, and refinement informed the development of Envue's final brand identity system.",
+    "video": {
+      "label": "Video Synopsis",
+      "title": "Solving Problems Synopsis",
+      "description": "A concise walkthrough of the client problem, brand development process, logo refinement, and final media applications.",
+      "meta": "60–90 seconds · Unlisted YouTube video",
+      "embedUrl": "https://www.youtube.com/embed/YOUR_VIDEO_ID"
+    }
+  },
+  "project": {
+    "number": "03",
+    "title": "Solving Problems Through Brand Identity",
+    "intro": "Envue was developed as a complete identity system that addresses the need for emotional support, affirmation, and meaningful self-expression within customizable fashion.",
+    "indexLabel": "Project sections",
+    "indexAriaLabel": "Thesis project section navigation",
+    "sections": [
+      {
+        "id": "problem",
+        "title": "Client Problem",
+        "meta": "Problem Statement",
+        "body": "Envue addresses the lack of emotionally supportive and authentically representative fashion experiences for queer and nonbinary adults. Research identified an opportunity for a customizable brand system centered on succorance, affirmation, and self-expression. The resulting problem statement, theme, and onlyness statement established the strategic foundation for the identity system and guided subsequent decisions related to voice, visual language, and media applications.",
+        "images": [
+          {
+            "src": "/uploads/problem-theme-onlyness.webp",
+            "alt": "Envue problem statement, theme, and onlyness statement",
+            "caption": "Problem statement, theme, and strategic direction"
+          }
+        ],
+        "source": []
+      },
+      {
+        "id": "onlyness",
+        "title": "Onlyness Statement",
+        "meta": "Brand Positioning",
+        "body": "Multiple iterations of the onlyness statement were explored to refine how Envue’s audience, emotional need, and differentiating qualities were communicated. The language evolved to emphasize succorance, customization, and consistent representation so the brand could clearly address the needs of queer and nonbinary adults while establishing a distinct market position. The final statement positioned Envue as the only direct-to-consumer customizable fashion line designed to provide succorance to nonbinary and queer adults ages 24–40 through gender-neutral customization, consistent representation, and restrained brand language. This statement established the brand’s strategic direction by defining both the audience and the emotional need the brand addresses. Rather than competing on trends or exclusivity, Envue differentiates itself by emphasizing affirmation, comfort, and self-expression, creating a brand identity centered on the theme Designed for who you are (Neumeier, 2006).",
+        "images": [
+          {
+            "src": "/uploads/onlyness-card-early.webp",
+            "alt": "Envue onlyness statement design artifact",
+            "caption": "Initial onlyness statement"
+          },
+          {
+            "src": "/uploads/onlyness-card.webp",
+            "alt": "Envue onlyness statement design artifact",
+            "caption": "Final onlyness statement"
+          }
+        ],
+        "source": [
+          {
+            "reference": "Neumeier, M. (2006). The brand gap: How to bridge the distance between business strategy and design (Rev. ed.). New Riders.",
+            "url": "https://learning.oreilly.com/library/view/the-brand-gap/0321348109/"
+          }
+        ]
+      },
+      {
+        "id": "voice-tone",
+        "title": "Voice & Tone",
+        "meta": "Verbal Identity",
+        "body": "Multiple iterations of the voice and tone system were explored to refine how Envue communicates affirmation, emotional support, and self-expression. The messaging evolved to emphasize clarity, groundedness, and intentionality while balancing emotional warmth with restraint and accessibility. Messaging uses concise, emotionally grounded language with restrained hierarchy, minimal punctuation, and accessible phrasing. The writing system prioritizes calm encouragement, inclusive self-expression, and restrained confidence while avoiding aggressive urgency, exclusivity-focused messaging, and trend-driven language. This approach reinforces Envue’s goal of providing succorance by creating communication that feels affirming, approachable, and intentional (Norman, 2004).",
+        "images": [
+          {
+            "src": "/uploads/voice-tone.webp",
+            "alt": "Envue voice and tone guide",
+            "caption": "Voice and tone system"
+          }
+        ],
+        "source": [
+          {
+            "reference": "Norman, D. A. (2004). Emotional design: Why we love (or hate) everyday things. Basic Books.",
+            "url": null
+          }
+        ]
+      },
+      {
+        "id": "look-feel",
+        "title": "Look & Feel",
+        "meta": "Visual Language",
+        "body": "Multiple visual directions were explored to determine how color, typography, line, shape, texture, and imagery could communicate Envue’s emotional attributes while maintaining a cohesive identity system. The final look and feel evolved toward a softer and more restrained visual language that emphasized clarity, groundedness, and intentionality. Color choices moved toward muted greens, warm neutrals, and soft clay tones to create a grounded and approachable palette. Typography balanced editorial personality with a readable structure, allowing the system to feel expressive without sacrificing clarity. Line and shape decisions emphasized softened curves, circular forms, and organic movement to reinforce warmth and approachability. Texture and imagery supported the brand through natural surfaces, warm lighting, and authentic representation that emphasized comfort, connection, and self-expression. These decisions utilized contrast, hierarchy, consistency, and visual organization to improve perception and usability (Lidwell et al., 2023).",
+        "images": [
+          {
+            "src": "/uploads/look-feel-early.webp",
+            "alt": "Envue look and feel board",
+            "caption": "Early visual direction"
+          },
+          {
+            "src": "/uploads/look-feel.webp",
+            "alt": "Envue look and feel board",
+            "caption": "Final visual direction"
+          }
+        ],
+        "source": [
+          {
+            "reference": "Lidwell, W., Holden, K., & Butler, J. (2023). Universal principles of design (Updated and expanded 3rd ed.). Rockport Publishers.",
+            "url": "https://learning.oreilly.com/library/view/universal-principles-of/9780760375174/"
+          }
+        ]
+      },
+      {
+        "id": "vision-board",
+        "title": "Vision Board",
+        "meta": "Emotional Direction",
+        "body": "Multiple vision board directions were explored to evaluate how effectively Envue’s emotional attributes could be communicated through color, typography, imagery, and composition. The vision board ultimately served as an evaluative tool for testing how effectively these attributes were expressed within the design direction. The selected attributes—succorance, clarity, groundedness, and intentionality—helped determine whether color, type, imagery, and composition were working cohesively. As the project evolved, hierarchy, spacing, and visual relationships were refined to more clearly embody these established attributes. These refinements improved clarity while preserving the brand’s emotional intent. Typographic guidance supported these decisions by framing type as a system of hierarchy, rhythm, spacing, and meaning rather than decoration alone (Lupton, 2024).",
+        "images": [
+          {
+            "src": "/uploads/vision-board-early.webp",
+            "alt": "Early Envue vision board",
+            "caption": "Early vision board direction"
+          },
+          {
+            "src": "/uploads/vision-board-final.webp",
+            "alt": "Final Envue vision board",
+            "caption": "Final emotional direction"
+          }
+        ],
+        "source": [
+          {
+            "reference": "Lupton, E. (2024). Thinking with type: A critical guide for designers, writers, editors, and students (3rd ed., rev. and expanded). Princeton Architectural Press.",
+            "url": null
+          }
+        ]
+      },
+      {
+        "id": "logo-development",
+        "title": "Logo Development",
+        "meta": "Concept, Selection, Refinement, Finalization",
+        "body": "Multiple logo concepts were explored to determine how Envue’s emotional attributes could be expressed through a memorable and recognizable symbol. Early concepts explored organic line work, crescent forms, and floral references. Feedback revealed that some marks created unintentional interpretations, while others showed stronger potential for softness, movement, and recognition. The selected direction was refined through simplification to improve symbolic clarity and recognizability, qualities associated with effective identity systems (Airey, 2015). This supported the decision to finalize a mark with a clearer silhouette, stronger symbolic meaning, and the flexibility to function consistently across digital, motion, and print applications.",
+        "images": [
+          {
+            "src": "/uploads/logo-development-early.webp",
+            "alt": "Envue logo development process from sketches to final mark",
+            "caption": "Concept exploration, feedback, refinement, and final identity"
+          },
+          {
+            "src": "/uploads/logo-development.webp",
+            "alt": "Envue logo development process from sketches to final mark",
+            "caption": "Concept exploration, feedback, refinement, and final identity"
+          }
+        ],
+        "source": [
+          {
+            "reference": "Airey, D. (2015). Logo design love: A guide to creating iconic brand identities (2nd ed.). New Riders.",
+            "url": "https://learning.oreilly.com/library/view/logo-design-love/9780321657251/"
+          }
+        ]
+      },
+      {
+        "id": "brand-media-assets",
+        "title": "Brand Media Assets",
+        "meta": "Final Applications",
+        "body": "Multiple media applications were explored to evaluate how Envue’s identity could adapt across digital, print, motion, and environmental formats while maintaining a cohesive visual language. The final brand media assets extended Envue across the brand style guide, thesis website, desktop and mobile website mockups, logo animation, brand launch video, social media mockups, letterhead and packaging mockups, poster and billboard mockups, and product applications such as a branded water bottle. Each asset applied the same visual rules while adapting to its format. The website emphasized clear hierarchy, structured navigation, and scannable content. Motion assets used gradual movement and soft transitions to support the brand’s calm personality, while print, packaging, and environmental applications used restrained typography, generous white space, and consistent color relationships to reinforce an elevated yet approachable identity. The identity system was designed to remain recognizable across multiple media while adapting to changing contexts without becoming repetitive (Lorenz, 2021).",
+        "images": [
+          {
+            "src": "/uploads/brand-media-assets-early.webp",
+            "alt": "Envue final media applications including website, social media, print, motion, and environmental graphics",
+            "caption": "Final brand media applications"
+          },
+          {
+            "src": "/uploads/brand-media-assets.webp",
+            "alt": "Envue final media applications including website, social media, print, motion, and environmental graphics",
+            "caption": "Final brand media applications"
+          }
+        ],
+        "source": [
+          {
+            "reference": "Lorenz, M. (2021). Flexible visual systems. Slanted Publishers.",
+            "url": null
+          }
+        ]
+      }
+    ]
+  }
+}

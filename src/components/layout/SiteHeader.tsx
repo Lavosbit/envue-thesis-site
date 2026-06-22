@@ -97,7 +97,9 @@ export function SiteHeader() {
                         (item.id === "bibliography" &&
                           window.location.pathname === "/") ||
                         (item.id === "collaboration" &&
-                          window.location.pathname === "/collaboration")
+                          window.location.pathname === "/collaboration") ||
+                        (item.id === "project" &&
+                          window.location.pathname === "/project")
                           ? "page"
                           : undefined
                       }
