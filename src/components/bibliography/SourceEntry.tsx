@@ -108,11 +108,15 @@ export function SourceEntry({
     return artifactGallery.length > 0 ? artifactGallery : legacyArtifact;
   }, [source]);
 
-  const lightboxImages = artifacts.map((artifact, artifactIndex) => ({
-    src: artifact.src,
-    alt: artifact.label ?? `${source.title} artifact ${artifactIndex + 1}`,
-    type: artifact.src.endsWith(".mp4") ? "video" : "image",
-  }));
+  const lightboxImages: LightboxImage[] = artifacts.map(
+    (artifact, artifactIndex) => ({
+      src: artifact.src,
+      alt: artifact.label ?? `${source.title} artifact ${artifactIndex + 1}`,
+      type:
+        artifact.type ??
+        (artifact.src.toLowerCase().endsWith(".mp4") ? "video" : "image"),
+    }),
+  );
 
   const openArtifact = useCallback(
     (artifactIndex: number) => {
