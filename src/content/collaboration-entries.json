@@ -19,6 +19,17 @@
         "reference": "Yablonski, J. (2024). Laws of UX: Using psychology to design better products & services (2nd ed.).",
         "url": "https://learning.oreilly.com/library/view/laws-of-ux/9781098146955/"
       }
+    ],
+    "evidence": [
+      {
+        "src": "/uploads/look-feel-01.webp"
+      },
+      {
+        "src": "/uploads/look-feel-02.webp"
+      },
+      {
+        "src": "/uploads/look-feel-03.webp"
+      }
     ]
   },
 
@@ -40,6 +51,14 @@
         "citation": "Moran, 2024",
         "reference": "Moran, K. (2024, February 3). The aesthetic-usability effect. Nielsen Norman Group.",
         "url": "https://www.nngroup.com/articles/aesthetic-usability-effect/"
+      }
+    ],
+    "evidence": [
+      {
+        "src": "/uploads/brand-attribute-02.webp"
+      },
+      {
+        "src": "/uploads/brand-attribute-03.webp"
       }
     ]
   },
@@ -63,6 +82,14 @@
         "citation": "Norman, 2004",
         "reference": "Norman, D. A. (2004). Emotional design: Why we love (or hate) everyday things. Basic Books."
       }
+    ],
+    "evidence": [
+      {
+        "src": "/uploads/brand-attribute-02.webp"
+      },
+      {
+        "src": "/uploads/brand-attribute-03.webp"
+      }
     ]
   },
 
@@ -85,6 +112,14 @@
         "reference": "",
         "url": null
       }
+    ],
+    "evidence": [
+      {
+        "src": "/uploads/color-swatch-shape-01.webp"
+      },
+      {
+        "src": "/uploads/color-swatch-shape-02.webp"
+      }
     ]
   },
 
@@ -106,6 +141,14 @@
         "citation": "Wheeler & Meyerson, 2024",
         "reference": "Wheeler, A., & Meyerson, R. (2024). Designing brand identity: A comprehensive guide to the world of brands and branding (6th ed.). Wiley.",
         "url": null
+      }
+    ],
+    "evidence": [
+      {
+        "src": "/uploads/evidence-based-rationale-02.webp"
+      },
+      {
+        "src": "/uploads/evidence-based-rationale-03.webp"
       }
     ]
   },
@@ -130,6 +173,14 @@
         "reference": "",
         "url": null
       }
+    ],
+    "evidence": [
+      {
+        "src": "/uploads/clarity-across-digital-touchpoints-01.webp"
+      },
+      {
+        "src": "/uploads/clarity-across-digital-touchpoints-02.webp"
+      }
     ]
   },
 
@@ -151,6 +202,14 @@
         "citation": "Neumeier, 2015",
         "reference": "Neumeier, M. (2015). The brand flip: Why customers now run companies and how to profit from it. New Riders.",
         "url": "https://learning.oreilly.com/library/view/the-brand-flip/9780134173009/"
+      }
+    ],
+    "evidence": [
+      {
+        "src": "/uploads/brand-gap-01.webp"
+      },
+      {
+        "src": "/uploads/dont-make-me-think-01.webp"
       }
     ]
   },
@@ -179,6 +238,14 @@
         "reference": "Peters, A. (2023). Logos that last: How to create iconic visual branding. Rockport Publishers.",
         "url": "https://learning.oreilly.com/library/view/logos-that-last/9780760383186/"
       }
+    ],
+    "evidence": [
+      {
+        "src": "/uploads/logo-development-early.webp"
+      },
+      {
+        "src": "/uploads/logo-development.webp"
+      }
     ]
   },
 
@@ -199,6 +266,14 @@
       {
         "citation": "Norman, 2004",
         "reference": "Norman, D. A. (2004). Emotional design: Why we love (or hate) everyday things. Basic Books."
+      }
+    ],
+    "evidence": [
+      {
+        "src": "/uploads/logo-animation-thumb.webp"
+      },
+      {
+        "src": "/uploads/brand-launch-cta-01.webp"
       }
     ]
   },
@@ -221,6 +296,14 @@
         "citation": null,
         "reference": "Krug, S. (2005). Don't make me think!: A common sense approach to Web usability (2nd ed.). New Riders.",
         "url": "https://learning.oreilly.com/library/view/dont-make-me/0321344758/"
+      }
+    ],
+    "evidence": [
+      {
+        "src": "/uploads/restructure-accessibility-and-progressive-disclosure-01.webp"
+      },
+      {
+        "src": "/uploads/restructure-accessibility-and-progressive-disclosure-02.webp"
       }
     ]
   }

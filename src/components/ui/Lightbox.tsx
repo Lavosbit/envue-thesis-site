@@ -6,6 +6,7 @@ export type LightboxImage = {
   alt: string;
   title?: string;
   caption?: string;
+  type?: "image" | "video";
 };
 
 export type LightboxState = {
@@ -169,19 +170,41 @@ export function Lightbox({
             </button>
           ) : null}
 
-          <motion.img
-            key={image.src}
-            src={image.src}
-            alt={image.alt}
-            layoutId={enableSharedLayout && index === 0 ? layoutId : undefined}
-            initial={{ opacity: enableSharedLayout && index === 0 ? 1 : 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{
-              opacity: { duration: 0.18 },
-              layout: { type: "spring", stiffness: 260, damping: 30 },
-            }}
-          />
+          {image.type === "video" ? (
+            <motion.video
+              key={image.src}
+              src={image.src}
+              controls
+              autoPlay
+              playsInline
+              layoutId={
+                enableSharedLayout && index === 0 ? layoutId : undefined
+              }
+              initial={{ opacity: enableSharedLayout && index === 0 ? 1 : 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{
+                opacity: { duration: 0.18 },
+                layout: { type: "spring", stiffness: 260, damping: 30 },
+              }}
+            />
+          ) : (
+            <motion.img
+              key={image.src}
+              src={image.src}
+              alt={image.alt}
+              layoutId={
+                enableSharedLayout && index === 0 ? layoutId : undefined
+              }
+              initial={{ opacity: enableSharedLayout && index === 0 ? 1 : 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{
+                opacity: { duration: 0.18 },
+                layout: { type: "spring", stiffness: 260, damping: 30 },
+              }}
+            />
+          )}
 
           {(image.title || image.caption) && (
             <figcaption>

@@ -1,15 +1,31 @@
 // src/pages/CollaborationPage.tsx
 
-import type { ReactNode } from "react";
+import { useCallback, useMemo, useState, type ReactNode } from "react";
 import { CheckSquare, MessageSquare, Sliders } from "react-feather";
+import { motion } from "motion/react";
 import content from "../content/collaboration.json";
 import entries from "../content/collaboration-entries.json";
 import { SourceIndex } from "../components/bibliography/SourceIndex";
 import { Reveal } from "../components/ui/Reveal";
+import { Lightbox, type LightboxImage } from "../components/ui/Lightbox";
 import type { CollaborationEntry } from "../types/thesis";
 import { formatIndex } from "../utils/format";
 
 const icons = [MessageSquare, Sliders, CheckSquare];
+
+type EvidenceItem = {
+  src: string;
+  label?: string;
+  type?: "image" | "video";
+  poster?: string;
+};
+
+type LightboxState = {
+  images: LightboxImage[];
+  index: number;
+  layoutId: string;
+  enableSharedLayout: boolean;
+} | null;
 
 export function CollaborationPage() {
   const typedEntries = entries as CollaborationEntry[];
@@ -124,98 +140,232 @@ export function CollaborationPage() {
 
           <div className="collaboration-list">
             {typedEntries.map((entry, index) => (
-              <Reveal
-                as="article"
-                className="collaboration-entry"
-                id={entry.id}
+              <CollaborationEntryArticle
+                entry={entry}
+                index={index}
                 key={entry.id}
-                aria-labelledby={`${entry.id}-title`}
-                delay={index === 0 ? 0.06 : 0}
-              >
-                <span className="source-number">{formatIndex(index)}</span>
-
-                <div className="collaboration-entry-content">
-                  <header className="collaboration-entry-header">
-                    <div>
-                      <h3 id={`${entry.id}-title`}>{entry.title}</h3>
-                      <p className="source-meta">
-                        {content.collaboration.entryLabels.entryType}:{" "}
-                        {entry.type} <span>·</span>{" "}
-                        {content.collaboration.entryLabels.focus}: {entry.focus}
-                      </p>
-                    </div>
-
-                    {entry.status ? (
-                      <span
-                        className={`entry-status entry-status-${entry.status}`}
-                      >
-                        {entry.status === "accepted" ? "Accepted" : "Rejected"}
-                      </span>
-                    ) : null}
-                  </header>
-
-                  {(entry.images?.before || entry.images?.after) && (
-                    <div className="comparison-panel">
-                      <ComparisonImage
-                        src={entry.images?.before}
-                        label={content.collaboration.comparisonLabels.before}
-                      />
-
-                      <ComparisonImage
-                        src={entry.images?.after}
-                        label={content.collaboration.comparisonLabels.after}
-                      />
-                    </div>
-                  )}
-
-                  <div className="collaboration-entry-body">
-                    <TextBlock
-                      label={content.collaboration.entryLabels.context}
-                      body={entry.context}
-                    />
-
-                    <TextBlock
-                      label={content.collaboration.entryLabels.assessment}
-                      body={entry.assessment}
-                    />
-
-                    <TextBlock
-                      label={
-                        entry.status === "rejected"
-                          ? "Decision Rationale"
-                          : content.collaboration.entryLabels.revision
-                      }
-                      body={entry.revision}
-                    />
-
-                    <section className="entry-source-reference">
-                      <h4>{content.collaboration.entryLabels.source}</h4>
-
-                      {entry.source
-                        .filter((source) => source.reference)
-                        .map((source, index) => (
-                          <p key={`${entry.id}-source-${index}`}>
-                            {source.reference}{" "}
-                            {source.url ? (
-                              <a
-                                className="source-url"
-                                href={source.url}
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                {source.url}
-                              </a>
-                            ) : null}
-                          </p>
-                        ))}
-                    </section>
-                  </div>
-                </div>
-              </Reveal>
+              />
             ))}
           </div>
         </div>
       </section>
+    </>
+  );
+}
+
+function CollaborationEntryArticle({
+  entry,
+  index,
+}: {
+  entry: CollaborationEntry;
+  index: number;
+}) {
+  const [lightbox, setLightbox] = useState<LightboxState>(null);
+
+  const evidence = useMemo(() => {
+    if (!("evidence" in entry) || !Array.isArray(entry.evidence)) return [];
+
+    return entry.evidence.filter((item): item is EvidenceItem =>
+      Boolean(item?.src),
+    );
+  }, [entry]);
+
+  const lightboxImages = evidence.map((item, evidenceIndex) => ({
+    src: item.src,
+    alt: item.label ?? `${entry.title} evidence ${evidenceIndex + 1}`,
+    type:
+      item.type ??
+      (item.src.toLowerCase().endsWith(".mp4") ? "video" : "image"),
+  }));
+
+  const openEvidence = useCallback(
+    (evidenceIndex: number) => {
+      setLightbox({
+        images: lightboxImages,
+        index: evidenceIndex,
+        layoutId: `collaboration-evidence-${entry.id}-${evidenceIndex}-image`,
+        enableSharedLayout: true,
+      });
+    },
+    [entry.id, lightboxImages],
+  );
+
+  const closeLightbox = useCallback(() => {
+    setLightbox(null);
+  }, []);
+
+  const showPreviousImage = useCallback(() => {
+    setLightbox((current) => {
+      if (!current || current.index === 0) return current;
+
+      return {
+        ...current,
+        index: current.index - 1,
+        enableSharedLayout: false,
+      };
+    });
+  }, []);
+
+  const showNextImage = useCallback(() => {
+    setLightbox((current) => {
+      if (!current || current.index === current.images.length - 1) {
+        return current;
+      }
+
+      return {
+        ...current,
+        index: current.index + 1,
+        enableSharedLayout: false,
+      };
+    });
+  }, []);
+
+  return (
+    <>
+      <Reveal
+        as="article"
+        className="collaboration-entry"
+        id={entry.id}
+        aria-labelledby={`${entry.id}-title`}
+        delay={index === 0 ? 0.06 : 0}
+      >
+        <span className="source-number">{formatIndex(index)}</span>
+
+        <div className="collaboration-entry-content">
+          <header className="collaboration-entry-header">
+            <div>
+              <h3 id={`${entry.id}-title`}>{entry.title}</h3>
+              <p className="source-meta">
+                {content.collaboration.entryLabels.entryType}: {entry.type}{" "}
+                <span>·</span> {content.collaboration.entryLabels.focus}:{" "}
+                {entry.focus}
+              </p>
+            </div>
+
+            {entry.status ? (
+              <span className={`entry-status entry-status-${entry.status}`}>
+                {entry.status === "accepted" ? "Accepted" : "Rejected"}
+              </span>
+            ) : null}
+          </header>
+
+          {(entry.images?.before || entry.images?.after) && (
+            <div className="comparison-panel">
+              <ComparisonImage
+                src={entry.images?.before}
+                label={content.collaboration.comparisonLabels.before}
+              />
+
+              <ComparisonImage
+                src={entry.images?.after}
+                label={content.collaboration.comparisonLabels.after}
+              />
+            </div>
+          )}
+
+          <div className="collaboration-entry-body">
+            <div className="collaboration-left-column">
+              <TextBlock
+                label={content.collaboration.entryLabels.context}
+                body={entry.context}
+              />
+
+              <TextBlock
+                label={
+                  entry.status === "rejected"
+                    ? "Decision Rationale"
+                    : content.collaboration.entryLabels.revision
+                }
+                body={entry.revision}
+              />
+            </div>
+
+            <section className="entry-text-block entry-assessment-block">
+              <h4>{content.collaboration.entryLabels.assessment}</h4>
+              <p>{entry.assessment}</p>
+
+              {evidence.length > 0 ? (
+                <div className="collaboration-evidence-block">
+                  <h4>Evidence</h4>
+
+                  <div className="collaboration-evidence-grid">
+                    {evidence.map((item, evidenceIndex) => {
+                      const isVideo =
+                        item.type === "video" ||
+                        item.src.toLowerCase().endsWith(".mp4");
+
+                      return (
+                        <button
+                          className="collaboration-evidence-thumb"
+                          type="button"
+                          key={`${item.src}-${evidenceIndex}`}
+                          onClick={() => openEvidence(evidenceIndex)}
+                          aria-label={`Open evidence ${
+                            evidenceIndex + 1
+                          } for ${entry.title}`}
+                        >
+                          {isVideo ? (
+                            <video
+                              className="collaboration-evidence-media"
+                              src={item.src}
+                              poster={item.poster}
+                              muted
+                              playsInline
+                              preload="metadata"
+                            />
+                          ) : (
+                            <motion.img
+                              className="collaboration-evidence-media"
+                              src={item.src}
+                              alt=""
+                              loading="lazy"
+                              layoutId={`collaboration-evidence-${entry.id}-${evidenceIndex}-image`}
+                            />
+                          )}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              ) : null}
+            </section>
+
+            <section className="entry-source-reference">
+              <h4>{content.collaboration.entryLabels.source}</h4>
+
+              {entry.source
+                .filter((source) => source.reference)
+                .map((source, index) => (
+                  <p key={`${entry.id}-source-${index}`}>
+                    {source.reference}{" "}
+                    {source.url ? (
+                      <a
+                        className="source-url"
+                        href={source.url}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {source.url}
+                      </a>
+                    ) : null}
+                  </p>
+                ))}
+            </section>
+          </div>
+        </div>
+      </Reveal>
+
+      {lightbox ? (
+        <Lightbox
+          images={lightbox.images}
+          index={lightbox.index}
+          layoutId={`collaboration-evidence-${entry.id}-${lightbox.index}-image`}
+          enableSharedLayout={lightbox.enableSharedLayout}
+          onClose={closeLightbox}
+          onPrevious={showPreviousImage}
+          onNext={showNextImage}
+        />
+      ) : null}
     </>
   );
 }

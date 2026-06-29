@@ -16,12 +16,19 @@
     "reflection": "This source reinforced the necessity of treating Envue as a strategic design process rather than a collection of visual deliverables. It informed the progression from research and positioning through exploration, refinement, implementation, and governance. The book also supported documenting design rationale for final outcomes to be traced back to research and strategic intent.",
     "finding": "Although by other resources had an impact as well, strong identities emerged from a structured process connecting research, strategy, design development, and implementation.",
     "decision": "Document for Envue’s development as an intentional process that connects research insights, strategic decisions, visual exploration, refinement, and implementation.",
-    "artifact": {
-      "label": "Identity process",
-      "title": "Envue Identity Development Process",
-      "detail": "A documented process connecting research, strategy, visual exploration, refinement, and implementation decisions.",
-      "variant": "system"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/evidence-based-rationale-01.webp"
+      },
+
+      {
+        "src": "/uploads/identity-designed-process-01.webp"
+      },
+
+      {
+        "src": "/uploads/identity-designed-process-02.webp"
+      }
+    ]
   },
   {
     "id": "logo-design-love",
@@ -40,12 +47,15 @@
     "reflection": "This book informed the Envue logo exploration by reinforcing the importance of simplicity, relevance, and distinctiveness. It encouraged evaluating the mark as part of a complete identity system rather than as an isolated graphic. This helped to refine the symbol so it could support brand recognition, motion applications, and flexible visual system.",
     "finding": "Effective logos are simple, relevant, distinctive, and built to support a larger identity system.",
     "decision": "Refine the Envue mark for recognition, adaptability, simplicity, and connection to the broader brand system.",
-    "artifact": {
-      "label": "Logo identity",
-      "title": "Envue Logo Exploration",
-      "detail": "A structured exploration and refinement process for developing a simple, recognizable, and system-ready brand mark.",
-      "variant": "principles"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/identity-designed-process-01.webp"
+      },
+
+      {
+        "src": "/uploads/logo-design-love-01.webp"
+      }
+    ]
   },
   {
     "id": "consistency-and-standards",
@@ -64,12 +74,15 @@
     "reflection": "This source directly supported Envue’s style guide, component design approach, and cross-channel consistency. It reinforced the need for repeated typography rules, layout patterns, color usage, image treatment, and content tone across brand touchpoints. It also supported the thesis website’s neutral structure by showing that consistency helps users focus on content rather than learning an unconventional interface.",
     "finding": "Consistency reduces cognitive effort by allowing users to apply familiar expectations across visuals, content, and interaction patterns.",
     "decision": "Establish repeatable standards for typography, layout, color, content tone, navigation, and component behavior across Envue’s identity system.",
-    "artifact": {
-      "label": "Design system",
-      "title": "Envue Consistency Standards",
-      "detail": "A documented set of reusable standards for layout, typography, content, navigation, and visual treatment.",
-      "variant": "system"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/evidence-based-rationale-02.webp"
+      },
+
+      {
+        "src": "/uploads/evidence-based-rationale-03.webp"
+      }
+    ]
   },
   {
     "id": "dont-make-me-think",
@@ -88,12 +101,11 @@
     "reflection": "This source reinforced the importance of simplicity and clarity throughout the Envue brand experience. It informed decisions related to information hierarchy, messaging structure, and visual communication, ensuring that brand touchpoints remained easy to understand and navigate. The principle of making information self-evident also supported the development of a flexible identity system that communicates value without unnecessary complexity.",
     "finding": "Users engage more effectively with digital experiences when navigation, hierarchy, and content structure reduce cognitive effort and support intuitive understanding.",
     "decision": "Apply principles of clarity and reduced cognitive effort across the thesis website and supporting digital experiences through recognizable navigation patterns and simplified content organization.",
-    "artifact": {
-      "label": "Information architecture",
-      "title": "Research Navigation Framework",
-      "detail": "A structured navigation and content hierarchy system connecting research sources, design decisions, and project artifacts.",
-      "variant": "system"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/dont-make-me-think-01.webp"
+      }
+    ]
   },
   {
     "id": "universal-principles-of-design",
@@ -112,12 +124,11 @@
     "reflection": "This source provided a broader framework for evaluating Envue’s design decisions beyond branding alone. It supported decisions related to hierarchy, accessibility, consistency, visual organization, and usability throughout the thesis website and brand system. The principles helped justify design choices through established theory rather than subjective preference.",
     "finding": "Effective design systems rely on established principles that improve clarity, accessibility, recognition, consistency, and user understanding.",
     "decision": "Apply proven design principles across Envue's visual system, thesis website, and presentation materials to improve clarity, usability, and consistency.",
-    "artifact": {
-      "label": "Design principles",
-      "title": "Envue Visual Principles Framework",
-      "detail": "A framework connecting hierarchy, accessibility, consistency, recognition, and visual clarity across Envue touchpoints.",
-      "variant": "principles"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/universal-principles-01.webp"
+      }
+    ]
   },
   {
     "id": "flexible-visual-systems",
@@ -136,12 +147,19 @@
     "reflection": "This source directly supported Envue’s shift from individual brand artifacts toward a scalable visual system. It influenced the use of reusable components, repeated logo-derived forms, visual patterns, and consistent layout logic across the style guide, campaign collateral, and motion work. It also reinforced the need for a system that could remain consistent without becoming visually repetitive.",
     "finding": "Brand recognition can be maintained through adaptable visual systems that preserve core relationships and design principles across changing applications.",
     "decision": "Establish a flexible visual framework that allows Envue’s identity to adapt across different formats while maintaining recognizable structure, hierarchy, and brand cohesion.",
-    "artifact": {
-      "label": "Visual system",
-      "title": "Envue Flexible Identity System",
-      "detail": "Reusable components, logo-derived patterns, layout principles, and motion treatments designed to scale across touchpoints.",
-      "variant": "system"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/universal-principles-01.webp"
+      },
+
+      {
+        "src": "/uploads/evidence-based-rationale-02.webp"
+      },
+
+      {
+        "src": "/uploads/evidence-based-rationale-03.webp"
+      }
+    ]
   },
   {
     "id": "thinking-with-type",
@@ -160,12 +178,11 @@
     "reflection": "This source shifted typography from a styling choice to an essential component of Envue’s voice and information architecture. It informed type pairing, scale, measure, spacing, and responsive hierarchy. The expanded attention to diverse readers also encouraged testing legibility across devices and avoiding fashion-oriented typography, sacrificing comprehension for atmosphere.",
     "finding": "Typography communicates through hierarchy, rhythm, spacing, and structure as much it does through the personality of a typeface.",
     "decision": "A responsive type system with explicit roles for display, body, metadata, navigation, and artifact content.",
-    "artifact": {
-      "label": "Typography system",
-      "title": "Envue Typographic Hierarchy",
-      "detail": "Type families, scales, measures, spacing, and responsive roles defined as a coherent system.",
-      "variant": "system"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/evidence-based-rationale-03.webp"
+      }
+    ]
   },
   {
     "id": "aesthetic-usability-effect",
@@ -184,12 +201,17 @@
     "reflection": "This source supported the decision to treat Envue’s visual refinement as functional rather than decorative. It validated the importance of careful typography, spacing, color restraint, and visual polish while also reinforcing that beauty cannot replace clarity. This influenced the development of a visual system that balances aesthetic appeal with communication effectiveness, ensuring that brand applications remain both engaging and understandable.",
     "finding": "Aesthetic quality can improve perceived usability and professionalism, but it must support rather than obscure functionality.",
     "decision": "Use refined visual design to strengthen trust and perceived quality without sacrificing clarity, readability, or usability.",
-    "artifact": {
-      "label": "Visual usability",
-      "title": "Envue Presentation Refinement",
-      "detail": "A set of visual refinement decisions connecting polish, hierarchy, perceived quality, and usability.",
-      "variant": "principles"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/dont-make-me-think-01.webp"
+      },
+      {
+        "src": "/uploads/aesthetic-usability-effect-01.webp"
+      },
+      {
+        "src": "/uploads/aesthetic-usability-effect-02.webp"
+      }
+    ]
   },
   {
     "id": "brand-flip",
@@ -208,12 +230,11 @@
     "reflection": "This source helped shift Envue away from a company-first identity and toward an audience-centered brand experience. It influenced the emphasis on feeling seen, emotional belonging, and quiet self-possession as the audience-facing value of the brand. It also supported designing Envue as a relationship-driven identity rather than a purely aesthetic fashion concept.",
     "finding": "Modern brands gain strength when audiences recognize themselves in the meaning and experience the brand creates.",
     "decision": "Frame Envue around audience connection, emotional recognition, and belonging rather than traditional product-first fashion messaging.",
-    "artifact": {
-      "label": "Audience strategy",
-      "title": "Envue Audience Relationship Framework",
-      "detail": "A strategic framework connecting audience needs, emotional value, identity language, and brand experience.",
-      "variant": "narrative"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/brand-flip-01.webp"
+      }
+    ]
   },
   {
     "id": "brand-gap",
@@ -232,12 +253,14 @@
     "reflection": "This source was essential in shaping Envue’s strategic foundation by reinforcing that its visual identity should express a differentiated position in the market. It prompted the project to define audience, value, promise, and competitive distinction before developing marks, typography, or imagery. The framework also reinforced validation as part of the design process rather than as a final presentation step.",
     "finding": "A brand becomes meaningful when brand strategy and customer experience operate as one coherent system.",
     "decision": "Define Envue’s positioning and brand promise before formal visual exploration, then test every identity element against that strategy.",
-    "artifact": {
-      "label": "Brand strategy",
-      "title": "Envue Brand Strategy Canvas",
-      "detail": "Positioning, audience, differentiation, promise, and validation criteria organized into one strategic framework.",
-      "variant": "narrative"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/brand-gap-01.webp"
+      },
+      {
+        "src": "/uploads/brand-gap-02.webp"
+      }
+    ]
   },
   {
     "id": "environmental-price-fast-fashion",
@@ -260,12 +283,14 @@
     "reflection": "This source highlighted the risks of broad sustainability claims within the fashion industry and reinforced the importance of evidence-based communication. It influenced the decision to avoid positioning Envue around environmental responsibility without supporting operational practices or verifiable proof. As a result, the brand focuses on identity, self-expression, and emotional resonance rather than unsubstantiated sustainability messaging.",
     "finding": "Fashion’s environmental impact is systemic, so credible sustainability communication requires specificity, traceability, and operational evidence.",
     "decision": "Structure Envue’s sustainability communication around qualified claims and supporting evidence rather than generalized ethical messaging.",
-    "artifact": {
-      "label": "Evidence standard",
-      "title": "Sustainability Claims Framework",
-      "detail": "A content standard for claims, sources, provenance, limitations, and evidence across Envue touchpoints.",
-      "variant": "principles"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/brand-gap-01.webp"
+      },
+      {
+        "src": "/uploads/brand-gap-02.webp"
+      }
+    ]
   },
   {
     "id": "emotional-design",
@@ -284,12 +309,14 @@
     "reflection": "The three levels gave Envue a practical way to evaluate whether a design was merely attractive or genuinely engaging. Visceral qualities informed first impressions, behavioral qualities shaped clarity and interaction, and reflective qualities guided narrative, identity, and long-term meaning. This prevented aesthetic decisions from being separated from usability, audience connection, and overall effectiveness.",
     "finding": "Lasting engagement depends on the combined effect of immediate appeal, functional ease, and reflective meaning.",
     "decision": "Evaluate Envue concepts at visceral, behavioral, and reflective levels before selecting a final direction.",
-    "artifact": {
-      "label": "Experience principles",
-      "title": "Emotional Experience Framework",
-      "detail": "A three-level evaluation model for attraction, usability, and reflective brand meaning.",
-      "variant": "principles"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/look-feel.webp"
+      },
+      {
+        "src": "/uploads/vision-board-final.webp"
+      }
+    ]
   },
   {
     "id": "logos-that-last",
@@ -308,12 +335,18 @@
     "reflection": "This source supported the final refinement of the Envue mark by emphasizing durability over trend-driven complexity. It encouraged reducing unnecessary detail and ensuring that the symbol remained memorable across small sizes, motion overlays, packaging, and digital applications. This helped the logo function as both a mark and a source for flexible pattern language.",
     "finding": "Lasting logos rely on clear form, reduction, memorability, and adaptability across changing contexts.",
     "decision": "Simplify the Envue mark so it can remain recognizable across static, motion, small-scale, and pattern-based applications.",
-    "artifact": {
-      "label": "Logo refinement",
-      "title": "Envue Final Mark System",
-      "detail": "A simplified logo system designed for recognition, scalability, motion use, and pattern extension.",
-      "variant": "system"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/identity-designed-process-01.webp"
+      },
+      {
+        "src": "/uploads/logo-design-love-01.webp"
+      },
+      {
+        "src": "/uploads/logo-animation-thumb.webp",
+        "type": "video/mp4"
+      }
+    ]
   },
   {
     "id": "designing-brand-identity",
@@ -332,12 +365,14 @@
     "reflection": "This source helped organize Envue as a complete identity program instead of a collection of isolated deliverables. It informed the sequence from research and strategy through visual exploration, application, and governance. It also prompted the creation of explicit standards so the identity could remain coherent across digital, editorial, and campaign contexts.",
     "finding": "Successful identity systems connect strategy, design execution, touchpoints, and governance through a repeatable process.",
     "decision": "Develop Envue through defined phases and document reusable rules for logo, typography, color, imagery, layout, and application.",
-    "artifact": {
-      "label": "Identity system",
-      "title": "Envue Brand Standards",
-      "detail": "A governed system of identity principles, components, applications, and consistency rules.",
-      "variant": "system"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/identity-designed-process-02.webp"
+      },
+      {
+        "src": "/uploads/designing-brand-identity-01.webp"
+      }
+    ]
   },
   {
     "id": "laws-of-ux",
@@ -356,11 +391,10 @@
     "reflection": "This source influenced the way Envue structured information, hierarchy, and visual communication. It supported reducing visual noise, organizing content into recognizable patterns, and avoiding unnecessary complexity. These principles helped maintain clarity and comprehension while preserving the brand’s intended tone and aesthetic direction.",
     "finding": "Design decisions become more usable when they account for attention, memory, familiarity, and cognitive effort.",
     "decision": "Use clear hierarchy, recognizable patterns, and restrained visual complexity across Envue’s brand applications and thesis presentation site.",
-    "artifact": {
-      "label": "UX principles",
-      "title": "Envue Experience Heuristics",
-      "detail": "A practical set of hierarchy, recognition, pacing, and cognitive-load principles used to evaluate layouts and interactions.",
-      "variant": "principles"
-    }
+    "artifacts": [
+      {
+        "src": "/uploads/dont-make-me-think-01.webp"
+      }
+    ]
   }
 ]

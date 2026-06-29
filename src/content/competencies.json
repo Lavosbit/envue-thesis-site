@@ -11,7 +11,7 @@
     }
   },
   "competencies": {
-    "title": "15 Core Competencies",
+    "title": "10 Core Competencies",
     "intro": "These competencies represent the most significant concepts, strategies, and methodologies I developed throughout the MFA program. Rather than focusing on software proficiency or existing professional experience, this page highlights the knowledge and practices that changed how I approach research, strategy, evaluation, communication, and brand identity systems.",
     "indexLabel": "Competencies",
     "indexAriaLabel": "Professional competencies navigation",
@@ -57,7 +57,7 @@
         ]
       },
       {
-        "id": "nlyness-statement-development",
+        "id": "onlyness-statement-development",
         "title": "Onlyness Statement Development",
         "body": "Developing Envue's onlyness statement taught me how to define a brand through a unique strategic position rather than broad marketing language. Throughout this process, I learned to iteratively refine a positioning statement by evaluating clarity, audience specificity, differentiation, and alignment with the brand's core human need. This competency fundamentally changed how I approach brand strategy by ensuring every design decision is grounded in a clearly articulated market position.",
         "gallery": [
@@ -184,19 +184,19 @@
         "body": "This program introduced me to evaluating design through measurable success criteria rather than relying solely on intuition or personal preference. Defining evaluation metrics established an objective framework for determining whether a design successfully communicated its intended goals. Using measurable criteria strengthened both refinement and decision-making throughout the thesis project.",
         "gallery": [
           {
-            "src": "/uploads/competency-research-overview.webp",
-            "title": "Research Overview",
-            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
+            "src": "/uploads/metrics-evaluation-01.webp",
+            "title": "Evaluation Metrics Framework",
+            "caption": "Defined qualitative metrics and success criteria to evaluate the effectiveness of Envue’s brand system throughout the design process."
           },
           {
-            "src": "/uploads/competitor-research.webp",
-            "title": "Competitor Research",
-            "caption": "Competitive analysis informed positioning decisions."
+            "src": "/uploads/metrics-evaluation-02.webp",
+            "title": "Critique & Instructor Feedback",
+            "caption": "Incorporated instructor critiques, peer feedback, and structured assessment throughout the project to validate design decisions and identify opportunities for refinement."
           },
           {
-            "src": "/uploads/instructor-feedback.webp",
-            "title": "Instructor Feedback",
-            "caption": "Iterative refinement based on critique."
+            "src": "/uploads/metrics-evaluation-03.webp",
+            "title": "Style Guide Refinement",
+            "caption": "Applied evaluation findings through documented revisions, transforming planning notes and iterative refinements into the completed Envue brand style guide."
           }
         ]
       },
@@ -206,129 +206,19 @@
         "body": "One of the most significant changes in my design process has been learning to support major design decisions with research and evidence. Competitor analysis, audience research, literature reviews, and design evaluation informed the rationale behind my work rather than personal preference alone. This competency strengthened both the quality of my solutions and my confidence when communicating design decisions.",
         "gallery": [
           {
-            "src": "/uploads/competency-research-overview.webp",
-            "title": "Research Overview",
-            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
+            "src": "/uploads/evidence-based-rationale-01.webp",
+            "title": "Research Foundation",
+            "caption": "Consumer psychology and advertising research informed Envue’s human need, audience strategy, and project rationale before visual design began."
           },
           {
-            "src": "/uploads/competitor-research.webp",
-            "title": "Competitor Research",
-            "caption": "Competitive analysis informed positioning decisions."
+            "src": "/uploads/evidence-based-rationale-02.webp",
+            "title": "Translating Research into Design",
+            "caption": "Research findings were systematically translated into Envue’s visual identity, interface components, style guide, and supporting brand system to ensure strategic consistency."
           },
           {
-            "src": "/uploads/instructor-feedback.webp",
-            "title": "Instructor Feedback",
-            "caption": "Iterative refinement based on critique."
-          }
-        ]
-      },
-      {
-        "id": "objective-design-critique",
-        "title": "Objective Design Critique",
-        "body": "This program fundamentally changed how I evaluate and discuss design. Rather than responding with subjective opinions, I learned to critique work according to its effectiveness, alignment with project goals, and support of established brand attributes. Frameworks such as RISE reinforced the importance of providing constructive, evidence-based feedback that improves the work rather than expressing personal preference.",
-        "gallery": [
-          {
-            "src": "/uploads/competency-research-overview.webp",
-            "title": "Research Overview",
-            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
-          },
-          {
-            "src": "/uploads/competitor-research.webp",
-            "title": "Competitor Research",
-            "caption": "Competitive analysis informed positioning decisions."
-          },
-          {
-            "src": "/uploads/instructor-feedback.webp",
-            "title": "Instructor Feedback",
-            "caption": "Iterative refinement based on critique."
-          }
-        ]
-      },
-      {
-        "id": "reflective-design-practice",
-        "title": "Reflective Design Practice",
-        "body": "Maintaining a weekly Mastery Journal encouraged me to become more intentional about evaluating my own growth as a designer. Reflecting on successes, challenges, and opportunities for improvement reinforced lessons learned throughout the program while helping me recognize recurring patterns in my design process. I now view reflection as an important component of continuous professional development rather than simply documenting completed work.",
-        "gallery": [
-          {
-            "src": "/uploads/competency-research-overview.webp",
-            "title": "Research Overview",
-            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
-          },
-          {
-            "src": "/uploads/competitor-research.webp",
-            "title": "Competitor Research",
-            "caption": "Competitive analysis informed positioning decisions."
-          },
-          {
-            "src": "/uploads/instructor-feedback.webp",
-            "title": "Instructor Feedback",
-            "caption": "Iterative refinement based on critique."
-          }
-        ]
-      },
-      {
-        "id": "persuasive-design-communication",
-        "title": "Persuasive Design Communication",
-        "body": "One of the strongest competencies I developed was learning how to communicate the reasoning behind my design decisions. Rather than simply presenting finished work, I learned to explain the research, strategy, evaluation, and refinement that informed every outcome. This strengthened my presentations, written documentation, and ability to communicate effectively with both designers and non-designers.",
-        "gallery": [
-          {
-            "src": "/uploads/competency-research-overview.webp",
-            "title": "Research Overview",
-            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
-          },
-          {
-            "src": "/uploads/competitor-research.webp",
-            "title": "Competitor Research",
-            "caption": "Competitive analysis informed positioning decisions."
-          },
-          {
-            "src": "/uploads/instructor-feedback.webp",
-            "title": "Instructor Feedback",
-            "caption": "Iterative refinement based on critique."
-          }
-        ]
-      },
-      {
-        "id": "iterative-design-methodology",
-        "title": "Iterative Design Methodology",
-        "body": "Throughout the MFA I learned that successful design rarely emerges from the first concept. Every project emphasized generating multiple ideas, collecting feedback, refining solutions, and continuously evaluating whether each iteration better addressed the original problem. This iterative methodology has become a foundational part of my professional design process.",
-        "gallery": [
-          {
-            "src": "/uploads/competency-research-overview.webp",
-            "title": "Research Overview",
-            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
-          },
-          {
-            "src": "/uploads/competitor-research.webp",
-            "title": "Competitor Research",
-            "caption": "Competitive analysis informed positioning decisions."
-          },
-          {
-            "src": "/uploads/instructor-feedback.webp",
-            "title": "Instructor Feedback",
-            "caption": "Iterative refinement based on critique."
-          }
-        ]
-      },
-      {
-        "id": "brand-identity-systems",
-        "title": "Brand Identity Systems",
-        "body": "Perhaps the most valuable competency I developed throughout the MFA was learning to think about branding as an interconnected system rather than a collection of individual deliverables. The logo, typography, color, imagery, messaging, applications, and documentation all reinforce one another to communicate a consistent identity. This systems-based approach fundamentally changed how I approach both branding and product design, and will continue influencing my professional work moving forward.",
-        "gallery": [
-          {
-            "src": "/uploads/competency-research-overview.webp",
-            "title": "Research Overview",
-            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
-          },
-          {
-            "src": "/uploads/competitor-research.webp",
-            "title": "Competitor Research",
-            "caption": "Competitive analysis informed positioning decisions."
-          },
-          {
-            "src": "/uploads/instructor-feedback.webp",
-            "title": "Instructor Feedback",
-            "caption": "Iterative refinement based on critique."
+            "src": "/uploads/evidence-based-rationale-03.webp",
+            "title": "Evidence-Based Refinement",
+            "caption": "Design decisions were refined through iterative comparison between exploratory typography studies and the final style guide, ensuring each element aligned with established research and brand objectives."
           }
         ]
       }
