@@ -1,6 +1,7 @@
 import { BibliographySection } from "./components/bibliography/BibliographySection";
 import { CollaborationPage } from "./pages/CollaborationPage";
 import { ProjectPage } from "./pages/ProjectPage";
+import { CompetenciesPage } from "./pages/CompetenciesPage";
 import { SiteFooter } from "./components/layout/SiteFooter";
 import { SiteHeader } from "./components/layout/SiteHeader";
 import { HeroSection } from "./components/sections/HeroSection";
@@ -11,6 +12,7 @@ function App() {
   const pathname = window.location.pathname;
   const isCollaboration = pathname === "/collaboration";
   const isProject = pathname === "/project";
+  const isCompetencies = pathname === "/competencies";
 
   return (
     <ResponsiveMotionProvider>
@@ -21,6 +23,8 @@ function App() {
             <ProjectPage />
           ) : isCollaboration ? (
             <CollaborationPage />
+          ) : isCompetencies ? (
+            <CompetenciesPage />
           ) : (
             <>
               <HeroSection />

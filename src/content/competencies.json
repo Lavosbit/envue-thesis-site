@@ -1,0 +1,337 @@
+{
+  "hero": {
+    "title": "Professional Competencies",
+    "summary": "This page presents the most significant competencies I developed throughout the Media Design MFA program and explains how each one strengthened my professional design practice.",
+    "video": {
+      "label": "Video Presentation",
+      "title": "Professional Competencies Synopsis",
+      "description": "A concise walkthrough of the research, strategy, evaluation, and communication competencies developed throughout the MFA program.",
+      "meta": "89 seconds · Unlisted YouTube video",
+      "embedUrl": "https://www.youtube.com/embed/gY6rS3uoUdA?si=fA6bnLqWfWsheNFA"
+    }
+  },
+  "competencies": {
+    "title": "15 Core Competencies",
+    "intro": "These competencies represent the most significant concepts, strategies, and methodologies I developed throughout the MFA program. Rather than focusing on software proficiency or existing professional experience, this page highlights the knowledge and practices that changed how I approach research, strategy, evaluation, communication, and brand identity systems.",
+    "indexLabel": "Competencies",
+    "indexAriaLabel": "Professional competencies navigation",
+    "sections": [
+      {
+        "id": "research-synthesis",
+        "title": "Research Synthesis",
+        "body": "Research synthesis was one of the most valuable competencies I developed during this program. Rather than simply collecting information, I learned how to compare multiple sources, identify patterns, and translate research into actionable design decisions. Throughout my thesis, this process informed everything from audience definition and brand positioning to visual identity development. This competency has fundamentally changed how I approach design, ensuring that my work is driven by evidence and insight rather than assumptions.",
+        "gallery": [
+          {
+            "src": "/uploads/research-synthesis-01.webp",
+            "title": "Research Overview",
+            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
+          },
+          {
+            "src": "/uploads/research-synthesis-02.webp",
+            "title": "Competitor Research",
+            "caption": "Competitive analysis informed positioning decisions."
+          },
+          {
+            "src": "/uploads/research-synthesis-03.webp",
+            "title": "Instructor Feedback",
+            "caption": "Iterative refinement based on critique."
+          }
+        ]
+      },
+      {
+        "id": "brand-positioning",
+        "title": "Brand Positioning",
+        "body": "This program strengthened my understanding of how successful brands differentiate themselves beyond visual aesthetics. Through developing Envue, I learned to define a clear market position by identifying the audience, competitive landscape, and unique value the brand provides. Establishing a strong strategic foundation made every subsequent design decision more focused and intentional. Moving forward, I will use brand positioning to create products and experiences that solve meaningful problems instead of simply looking visually appealing.",
+        "gallery": [
+          {
+            "src": "/uploads/research-synthesis-02.webp",
+            "thumb": "/uploads/competency-research-overview-thumb.webp",
+            "title": "Research Overview",
+            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
+          },
+          {
+            "src": "/uploads/onlyness-statement-01.webp",
+            "title": "Instructor Feedback",
+            "caption": "Iterative refinement based on critique."
+          }
+        ]
+      },
+      {
+        "id": "nlyness-statement-development",
+        "title": "Onlyness Statement Development",
+        "body": "Developing Envue's onlyness statement taught me how to define a brand through a unique strategic position rather than broad marketing language. Throughout this process, I learned to iteratively refine a positioning statement by evaluating clarity, audience specificity, differentiation, and alignment with the brand's core human need. This competency fundamentally changed how I approach brand strategy by ensuring every design decision is grounded in a clearly articulated market position.",
+        "gallery": [
+          {
+            "src": "/uploads/onlyness-statement-01.webp",
+            "title": "From Initial Concept to Onlyness Statement",
+            "caption": "Comparing the initial concept with the final onlyness statement to illustrate how iterative refinement improved clarity, differentiation, and alignment with the brand’s core human need."
+          }
+        ]
+      },
+      {
+        "id": "human-need-strategy",
+        "title": "Human Need–Driven Brand Strategy",
+        "body": "One of the biggest shifts in my thinking came from designing around a fundamental human need instead of a product category or demographic. Identifying succorance as Envue's core need influenced every strategic and visual decision throughout the project. Rather than asking what the brand should look like, I learned to ask how every decision supports the emotional experience of the intended audience. This perspective will continue shaping how I approach product design, branding, and immersive experiences.",
+        "gallery": [
+          {
+            "src": "/uploads/human-need-01.webp",
+            "title": "Research Overview",
+            "caption": "Need, psychographics, benefit, features, attributes, positioning, and narrative."
+          },
+          {
+            "src": "/uploads/human-need-02.webp",
+            "title": "Competitor Research",
+            "caption": "Problem, Theme, and Onlyness"
+          },
+          {
+            "src": "/uploads/human-need-03.webp",
+            "title": "Onlyness Statement Development",
+            "caption": "The strategic positioning statement refined the audience, need, and differentiating value."
+          }
+        ]
+      },
+      {
+        "id": "brand-attribute-development",
+        "title": "Brand Attribute Development",
+        "body": "This program taught me how to establish intentional brand attributes that became measurable criteria for evaluating design decisions. Rather than describing how a brand should look, I learned to define the qualities it should consistently communicate. These attributes guided decisions surrounding typography, color, imagery, composition, and messaging throughout Envue's development. I plan to continue using brand attributes as a decision-making framework throughout my professional career.",
+        "gallery": [
+          {
+            "src": "/uploads/brand-attribute-01.webp",
+            "title": "Brand Attribute Framework",
+            "caption": "The foundational brand attributes—Intentional, Grounded, and Clear—established objective criteria that guided every strategic and visual decision throughout Envue’s development."
+          },
+          {
+            "src": "/uploads/brand-attribute-02.webp",
+            "title": "Early Attribute Exploration",
+            "caption": "An early vision board exploring how Envue’s brand attributes could be expressed through typography, imagery, color, and composition. This stage tested visual directions while evaluating their alignment with the established brand framework."
+          },
+          {
+            "src": "/uploads/brand-attribute-03.webp",
+            "title": "Final Brand System",
+            "caption": "The refined vision board demonstrates how the brand attributes were consistently translated into a cohesive visual identity, resulting in a unified system that communicates Envue’s strategic positioning and emotional intent."
+          }
+        ]
+      },
+      {
+        "id": "voice-tone-systems",
+        "title": "Brand Voice & Tone Systems",
+        "body": "Developing Envue's voice and tone taught me that verbal identity is equally as important as visual identity. I learned how messaging principles, hierarchy, and language choices reinforce a brand's personality and emotional goals across every touchpoint. This competency strengthened my ability to create cohesive experiences where communication feels intentional and consistent rather than disconnected from the visual system.",
+        "gallery": [
+          {
+            "src": "/uploads/voice-tone-01.webp",
+            "title": "Brand Strategy Foundation",
+            "caption": "Early brand strategy established Envue’s personality, positioning, narrative, and onlyness statement, providing the strategic foundation that informed its voice and tone system."
+          },
+          {
+            "src": "/uploads/voice-tone-02.webp",
+            "title": "Voice & Tone Foundation",
+            "caption": "Core voice attributes translated Envue’s strategic goals into a consistent verbal identity, defining how the brand communicates with clarity, inclusivity, and emotional support."
+          },
+          {
+            "src": "/uploads/voice-tone-03.webp",
+            "title": "Writing Principles & Messaging",
+            "caption": "Voice and tone guidelines were applied through practical writing standards for headlines, body copy, calls to action, and interface messaging, ensuring consistency across every customer touchpoint."
+          }
+        ]
+      },
+      {
+        "id": "look-feel-development",
+        "title": "Look & Feel Development",
+        "body": "Throughout this program I learned that typography, color, imagery, line, texture, and composition function together as a unified visual language. Developing Envue's look and feel required evaluating every visual decision against the brand's attributes instead of making isolated aesthetic choices. This competency strengthened my ability to build cohesive identity systems that communicate emotion through every visual element.",
+        "gallery": [
+          {
+            "src": "/uploads/research-synthesis-02.webp",
+            "title": "Research-Informed Visual Direction",
+            "caption": "Competitor analysis, literature review, and visual research established the aesthetic principles that informed Envue’s identity."
+          },
+          {
+            "src": "/uploads/look-feel-02.webp",
+            "title": "Final Vision Board",
+            "caption": "Typography, imagery, color, and composition were refined into a cohesive visual direction that expressed Envue’s brand attributes and emotional goals."
+          },
+          {
+            "src": "/uploads/look-feel-03.webp",
+            "title": "Imagery & Graphics System",
+            "caption": "The finalized style guide translated Envue’s visual language into documented standards for photography, graphics, iconography, and composition to ensure consistency across every brand touchpoint."
+          }
+        ]
+      },
+      {
+        "id": "vision-board-evaluation",
+        "title": "Vision Board Evaluation",
+        "body": "One of the most valuable lessons I learned was that a vision board is not simply a collection of inspiration. Throughout the MFA, I learned how to evaluate visual direction against established brand attributes to determine whether it successfully communicated the intended emotional experience. Repeated refinement strengthened the relationship between strategy and visual expression while eliminating elements that no longer supported the brand.",
+        "gallery": [
+          {
+            "src": "/uploads/research-synthesis-02.webp",
+            "title": "Research-Informed Visual Direction",
+            "caption": "Competitor analysis identified common patterns in typography, layout, imagery, and editorial design, establishing a research-backed foundation for Envue’s visual direction."
+          },
+          {
+            "src": "/uploads/brand-attribute-02.webp",
+            "title": "Vision Board Evolution",
+            "caption": "Early and final vision boards illustrate how visual direction was evaluated and refined against Envue’s brand attributes, strengthening the relationship between strategy and visual expression."
+          },
+          {
+            "src": "/uploads/brand-attribute-03.webp",
+            "title": "Final Vision Board",
+            "caption": "The finalized vision board unified typography, imagery, color, composition, and brand attributes into a cohesive visual language that guided the development of Envue’s identity system."
+          }
+        ]
+      },
+      {
+        "id": "metrics-based-evaluation",
+        "title": "Metrics-Based Design Evaluation",
+        "body": "This program introduced me to evaluating design through measurable success criteria rather than relying solely on intuition or personal preference. Defining evaluation metrics established an objective framework for determining whether a design successfully communicated its intended goals. Using measurable criteria strengthened both refinement and decision-making throughout the thesis project.",
+        "gallery": [
+          {
+            "src": "/uploads/competency-research-overview.webp",
+            "title": "Research Overview",
+            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
+          },
+          {
+            "src": "/uploads/competitor-research.webp",
+            "title": "Competitor Research",
+            "caption": "Competitive analysis informed positioning decisions."
+          },
+          {
+            "src": "/uploads/instructor-feedback.webp",
+            "title": "Instructor Feedback",
+            "caption": "Iterative refinement based on critique."
+          }
+        ]
+      },
+      {
+        "id": "evidence-based-rationale",
+        "title": "Evidence-Based Design Rationale",
+        "body": "One of the most significant changes in my design process has been learning to support major design decisions with research and evidence. Competitor analysis, audience research, literature reviews, and design evaluation informed the rationale behind my work rather than personal preference alone. This competency strengthened both the quality of my solutions and my confidence when communicating design decisions.",
+        "gallery": [
+          {
+            "src": "/uploads/competency-research-overview.webp",
+            "title": "Research Overview",
+            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
+          },
+          {
+            "src": "/uploads/competitor-research.webp",
+            "title": "Competitor Research",
+            "caption": "Competitive analysis informed positioning decisions."
+          },
+          {
+            "src": "/uploads/instructor-feedback.webp",
+            "title": "Instructor Feedback",
+            "caption": "Iterative refinement based on critique."
+          }
+        ]
+      },
+      {
+        "id": "objective-design-critique",
+        "title": "Objective Design Critique",
+        "body": "This program fundamentally changed how I evaluate and discuss design. Rather than responding with subjective opinions, I learned to critique work according to its effectiveness, alignment with project goals, and support of established brand attributes. Frameworks such as RISE reinforced the importance of providing constructive, evidence-based feedback that improves the work rather than expressing personal preference.",
+        "gallery": [
+          {
+            "src": "/uploads/competency-research-overview.webp",
+            "title": "Research Overview",
+            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
+          },
+          {
+            "src": "/uploads/competitor-research.webp",
+            "title": "Competitor Research",
+            "caption": "Competitive analysis informed positioning decisions."
+          },
+          {
+            "src": "/uploads/instructor-feedback.webp",
+            "title": "Instructor Feedback",
+            "caption": "Iterative refinement based on critique."
+          }
+        ]
+      },
+      {
+        "id": "reflective-design-practice",
+        "title": "Reflective Design Practice",
+        "body": "Maintaining a weekly Mastery Journal encouraged me to become more intentional about evaluating my own growth as a designer. Reflecting on successes, challenges, and opportunities for improvement reinforced lessons learned throughout the program while helping me recognize recurring patterns in my design process. I now view reflection as an important component of continuous professional development rather than simply documenting completed work.",
+        "gallery": [
+          {
+            "src": "/uploads/competency-research-overview.webp",
+            "title": "Research Overview",
+            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
+          },
+          {
+            "src": "/uploads/competitor-research.webp",
+            "title": "Competitor Research",
+            "caption": "Competitive analysis informed positioning decisions."
+          },
+          {
+            "src": "/uploads/instructor-feedback.webp",
+            "title": "Instructor Feedback",
+            "caption": "Iterative refinement based on critique."
+          }
+        ]
+      },
+      {
+        "id": "persuasive-design-communication",
+        "title": "Persuasive Design Communication",
+        "body": "One of the strongest competencies I developed was learning how to communicate the reasoning behind my design decisions. Rather than simply presenting finished work, I learned to explain the research, strategy, evaluation, and refinement that informed every outcome. This strengthened my presentations, written documentation, and ability to communicate effectively with both designers and non-designers.",
+        "gallery": [
+          {
+            "src": "/uploads/competency-research-overview.webp",
+            "title": "Research Overview",
+            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
+          },
+          {
+            "src": "/uploads/competitor-research.webp",
+            "title": "Competitor Research",
+            "caption": "Competitive analysis informed positioning decisions."
+          },
+          {
+            "src": "/uploads/instructor-feedback.webp",
+            "title": "Instructor Feedback",
+            "caption": "Iterative refinement based on critique."
+          }
+        ]
+      },
+      {
+        "id": "iterative-design-methodology",
+        "title": "Iterative Design Methodology",
+        "body": "Throughout the MFA I learned that successful design rarely emerges from the first concept. Every project emphasized generating multiple ideas, collecting feedback, refining solutions, and continuously evaluating whether each iteration better addressed the original problem. This iterative methodology has become a foundational part of my professional design process.",
+        "gallery": [
+          {
+            "src": "/uploads/competency-research-overview.webp",
+            "title": "Research Overview",
+            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
+          },
+          {
+            "src": "/uploads/competitor-research.webp",
+            "title": "Competitor Research",
+            "caption": "Competitive analysis informed positioning decisions."
+          },
+          {
+            "src": "/uploads/instructor-feedback.webp",
+            "title": "Instructor Feedback",
+            "caption": "Iterative refinement based on critique."
+          }
+        ]
+      },
+      {
+        "id": "brand-identity-systems",
+        "title": "Brand Identity Systems",
+        "body": "Perhaps the most valuable competency I developed throughout the MFA was learning to think about branding as an interconnected system rather than a collection of individual deliverables. The logo, typography, color, imagery, messaging, applications, and documentation all reinforce one another to communicate a consistent identity. This systems-based approach fundamentally changed how I approach both branding and product design, and will continue influencing my professional work moving forward.",
+        "gallery": [
+          {
+            "src": "/uploads/competency-research-overview.webp",
+            "title": "Research Overview",
+            "caption": "Qualitative research, competitor analysis, peer feedback, instructor critiques, and self-evaluation."
+          },
+          {
+            "src": "/uploads/competitor-research.webp",
+            "title": "Competitor Research",
+            "caption": "Competitive analysis informed positioning decisions."
+          },
+          {
+            "src": "/uploads/instructor-feedback.webp",
+            "title": "Instructor Feedback",
+            "caption": "Iterative refinement based on critique."
+          }
+        ]
+      }
+    ]
+  }
+}

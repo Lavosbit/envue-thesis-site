@@ -24,6 +24,12 @@
       "label": "Collaboration",
       "href": "/collaboration",
       "enabled": true
+    },
+    {
+      "id": "competencies",
+      "label": "Competencies",
+      "href": "/competencies",
+      "enabled": true
     }
   ],
   "footer": {
